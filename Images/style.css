@@ -1,0 +1,217 @@
+#moodColors {
+  line-height: 180%;
+  margin-left: 1%;
+
+}
+
+#contextInfo {
+  font-size: 125%;
+  font-weight: bolder;
+  font-style: oblique;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  padding-left: 0px;
+  padding-right: 1px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(52, 147, 208, 0.7);
+  width: 100%;
+  display: block;
+  left: 0%;
+  text-align: center;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+#contextWarn {
+  font-size: 125%;
+  font-weight: bolder;
+  font-style: oblique;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  padding-left: 0px;
+  padding-right: 1px;
+  border-radius: 10px;
+  color: white;
+  background-color: #ff866b;
+  width: 100%;
+  display: block;
+  left: 0%;
+  text-align: center;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+#indexTitle {
+  font-weight: bolder;
+  color: #4f93c4;
+  text-transform: none;
+  text-align: center;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  width: 100%;
+  font-size: 160%;
+  border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-radius: 5px;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color: #cccccc;
+  display: block;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#indexFrame {
+  width: 58%;
+  margin-left: 20%;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-radius: 5px;
+}
+
+#indexBut {
+  color: #4f93c4;
+}
+#goTopBut {
+  color: #999999;
+}
+
+div#backTop {
+}
+div#backTop a {
+  color: #999999 !important;
+  display: list-item;
+}
+
+div#backTop ul {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 3%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 80%;
+  background-image: none;
+  background-repeat: repeat;
+  display: list-item;
+}
+
+div#backTop ul li {
+  display: list-item;
+  list-style-type: none;
+  list-style-image: none;
+
+}
+
+
+div#backTop ul ul {
+  position: absolute;
+}
+
+div#backTop li a {
+  text-decoration: none;
+  /*text-align: right;*/
+  
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: list-item;
+}
+
+div#summary {
+}
+
+div#summary a {
+  color: #3089d2 !important;
+  display: list-item;
+}
+
+div#summary ul {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  background-image: none;
+  background-repeat: repeat;
+  display: list-item;
+}
+
+div#summary ul li {
+  display: list-item;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+div#summary ul ul {
+  position: absolute;
+}
+
+div#summary li a {
+  text-decoration: none;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: list-item;
+}
+
+div#summary li:hover {
+  background-color: #eedddd;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+div#summary li.subSummary:hover {
+  background-color: #eebbbb;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+div#summary li.subSummary {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("fleche.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 95% 50%;
+}
+

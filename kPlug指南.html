@@ -1,0 +1,2751 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>StartPage</title>
+    <link rel="stylesheet" type="text/css" href="Images/style.css">
+    <style type="text/css">
+#MainBar {
+  width: 100%;
+  position: fixed;
+  background-color: #4f93c4;
+  background-image: url("Images/Title.jpg");
+  background-attachment: scroll;
+  background-size: contain;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+#topSpacer {
+  width: 100%;
+  height: 280px;
+  display: block;
+  background-image: url("Images/top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-clip: border-box;
+  background-origin: border-box;
+}
+
+#sepSpacer {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+#spacer {
+  width: 100%;
+  height: 50px;
+  display: block;
+}
+
+#smallSpacer {
+  width: 100%;
+  height: 20px;
+  display: block;
+}
+
+#mainFrame {
+  width: 99%;
+  margin-left: 1px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-color: #cccccc;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-left-color: #cccccc;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgba(219, 239, 249, 0.26);
+}
+
+#ctxUl {
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+#frame {
+  width: 95%;
+  margin-left: 1%;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-color: #cccccc;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-left-color: #cccccc;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #e0f3ff;
+}
+
+#subFrame {
+  width: 95%;
+  margin-left: 15px;
+  border-bottom-style: dotted;
+  border-top-style: dotted;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-bottom-color: #cccccc;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-left-color: #cccccc;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgba(108, 167, 215, 0.2);
+}
+
+#FieldTitle {
+  color: white;
+  text-align: center;
+  background-color: #4f93c4;
+  font-style: oblique;
+}
+
+#frameTitle {
+  font-weight: bolder;
+  color: #ccffff;
+  text-transform: none;
+  text-align: center;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  width: 100%;
+  background-color: #66cccc;
+  font-size: 180%;
+}
+
+#subTitle {
+  font-weight: bolder;
+  color: #e96ca8;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-style: normal;
+  width: 100%;
+  font-size: 110%;
+  display: list-item;
+}
+
+#subTitleC {
+  font-weight: bolder;
+  color: #3cabf1;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: oblique;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  width: 100%;
+  font-size: 130%;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgba(108, 167, 215, 0.2);
+}
+
+#subText {
+  font-style: normal;
+  text-align: left;
+  text-indent: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 4%;
+  margin-right: 50px;
+  font-size: 110%;
+}
+
+#subTextNote {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 120%;
+  
+}
+
+#descrTitle {
+  font-style: normal;
+  text-align: left;
+  text-indent: 0px;
+  color: #e963b8;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#descrText {
+  font-style: normal;
+  text-align: left;
+  text-indent: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 110%;
+}
+
+#input {
+  font-style: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #33cc00;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+}
+
+#inputDef {
+  font-style: normal;
+  margin-bottom: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 110%;
+}
+
+#inputRemind {
+  font-style: normal;
+  color: #3dd65e;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  font-size: 120%;
+  font-weight: bold;
+  background-color: rgba(152, 251, 152, 0.13);
+}
+
+#img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  visibility: visible;
+  border-bottom-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+#minorText {
+  font-style: italic;
+  margin-left: 0px;
+  color: #999999;
+}
+
+#path {
+  font-weight: bold;
+  color: #339999;
+}
+
+#vId {
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  margin-top: -15px;
+  clear: none;
+  overflow-x: visible;
+  overflow-y: visible;
+  visibility: visible;
+  color: rgba(75, 100, 225, 1);
+  margin-right: 2%;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  max-height: 0px;
+  line-height: 0px;
+  height: 0px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  writing-mode: horizontal-tb;
+}
+
+#Meen {
+  font-style: oblique;
+}
+
+</style> </head>
+  <body id="Meen">
+    <div id="header" align="center">
+      <ul id="MainBar" style="margin-top: 12px;">
+        <a href="#INTRO"><img src="Images/butIntro.png" style="width: 118px; height: 44px;"></a>
+        <a href="#CONFIG"><img src="Images/butSettings.png" style="width: 118px; height: 44px;"></a>
+        <a href="#Gameplay"><img src="Images/butGameplay.png" style="width: 118px; height: 44px;"></a>
+        <a href="#H"><img src="Images/butHgameplay.png" style="width: 118px; height: 44px;"></a>
+      </ul>
+    </div>
+    <hr id="INTRO" style="visibility: hidden;">
+    <div id="topSpacer"> </div>
+    <p id="vId">qq1051064396 更新汉化v2.0 【爱好者汉化组】汉化v1.58 </p>
+    <br>
+    <div id="mainFrame">
+      <h1 id="FieldTitle" style="margin-top: -19.5667px;">¤ 内容介绍 ¤</h1>
+      <div id="indexFrame"> <br>
+        <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">索引</h1>
+        <div id="summary">
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#INTROinstal">kPlug插件安装说明</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#INTROunc">关于开合解码</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#INTROcomp">对于其他插件的兼容性</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#INTROtranslation">使用或创建kPlug的翻译</a> </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      <hr id="INTROinstal" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - Installation -</p>
+        <p id="subTextNote"> 本插件为IPA插件，但是也兼容在BeplnEx运行.<br>
+          A big thank you to Eusth for the IPA framework, it is very easy to use
+          when you know how to use Unity.<br>
+          The same goes for Enimaroah and SB3Utility, which allows you to export
+          and inject elements into the game's files.<br>
+          These two guys made kPlug possible!<br>
+          <br>
+          如果你想支持kPlug项目，一切都在这里开始<br>
+          <a href="https://www.patreon.com/Katarsys">https://www.patreon.com/Katarsys</a><br>
+        </p>
+        <div id="frame">
+          <p id="subTitle">安装方式① 使用BepInEx </p>
+          <p id="subText"> 如果已经安装了BepInEx，则只需把对应的mod文件夹覆盖到游戏目录中。<br>
+          </p>
+        </div>
+        <br>
+        <div id="frame">
+          <p id="subTitle">安装方式② 使用IPA<br>
+          </p>
+          <ul id="ctxUl">
+            <p id="contextWarn">如果可以用BepInEx安装请不要选择这种方式！</p>
+          </ul>
+          <p id="subText"> 需要用到IPA，你可以在下面的链接中找到。<a href="https://github.com/Eusth/IPA/releases">https://github.com/Eusth/IPA/releases</a><br>
+            在下载好的文件中，你将找到一个名为IPA的文件夹，以及两个分别名为IPA.exe和Mono.Cecil.dll的文件，请将它们放在<a id="path">"Koikatu"</a>
+            目录下。<br>
+            现在，<a id="path">"Plugins"</a>文件夹应该创建在<a id="path">"Koikatu"</a>目录下，请将KoikPlugins.dll放入其中。<br>
+            若之后想使用BepInEx运行插件，请去掉<a id="path">"Koikatu/BepInEx/IAPLoader.dll"</a>(将其移到其他地方或更改扩展名)。<br>
+            <br>
+          </p>
+        </div>
+        <br>
+      </div>
+      <hr id="INTROunc" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"><br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 关于开合解码建议直接看"kPlug兼容性记录.pdf" -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">kPlug 有自己的男女解码
+            <br>
+            女性解码使用独立建模，拥有动态的开合效果，十分拟真
+            男性丁丁颜色用的是普通身型的那款颜色.<br>
+            <br>
+            解码不需要使用到插件其他功能！但是插件必装，不需要其他功能请自行关闭</p>
+        </ul>
+        <hr style="width: 100%; height: 266px; color: white; border-style: none; background-image: url(&quot;Images/unc.jpg&quot;);"
+
+          id="img">
+        <ul id="ctxUl">
+          <p id="contextWarn">KPlug的解码不是一个zipmod，你需要替换游戏文件!建议使用zodgame论坛上的ModManager工具进行安装<br>
+            <br>
+            The BepInEx mod KK_UncensorSelector have a mojor conflict with the
+            character swap function of kPlug, it's super easy to fix, Check the
+            compatibilityNotes.pdf to solve this problem and adapt the uncensor
+            to your taste. <br>
+            <br>
+            Because of this conflict, kPlug uncensor is not in the main abdata
+            folder of kPlug archive, you will find it in kPlugMisc/kPlugUnc, if
+            you want to use it copy the abdata from that directory in your game.
+          </p>
+        </ul>
+        <p id="subText"><a id="descrTitle"> 此处涉及两个文件</a><br>
+          <br>
+          &nbsp;&nbsp;&nbsp; <a id="path">"abdata/chara/oo_base.unity3d"</a> (
+          身体模型和骨骼 )<br>
+          &nbsp;&nbsp;&nbsp; <a id="path">"abdata/studio/base/00.unity3d"</a> (
+          工作室人物骨骼 )<br>
+        </p>
+        <div id="spacer"></div>
+      </div>
+      <br>
+      <hr id="INTROcomp" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 对于其他插件的兼容性 -</p>
+        <p id="subText">kPlug与bepInEx和大多数可用的mod是兼容的，然而，他们中的一些会产生问题或需要一些调整，阅读文件 <a id="path">kPlugManual2.0说明书/kPlug兼容性笔记.pdf</a>
+          了解更多.</p>
+        <br>
+        <p id="subText">Some features of kPlug ( as multiple H ) often loads
+          some assets from the game, to optimize the experience, it's far better
+          to start the game from a SSD. </p>
+        <br>
+        <p id="subText"><a id="descrTitle">一些重要的事!</a><br>
+          <br>
+          kPlug依赖于角色名字(姓+名)，所以确保你的学校名册中没有多个名字相同的角色
+. 如果你想要不同的女孩有相同的外观，在捏人中创建一个克隆，并改变角色的一部分名字。 <br>
+          Same for FreeH mode ( "Have Sex" in Party edition ), if there are
+          different cards that share the same names, only one of them will be
+          accessible via the Invite UI. </p>
+        <br>
+      </div>
+      <hr id="INTROtranslation" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"><br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 使用或创建kPlug的翻译（不用看） -</p>
+        <p id="subText"><a id="descrTitle"> 使用翻译</a><br>
+          <br>
+          默认情况下，kPlug 插件包含英文翻译（插件有中文翻译文件，这一部分无视）<br>
+          &nbsp;&nbsp;&nbsp; <a id="path">"Plugins/kPlugLanguage/English_message.txt"</a><br>
+          &nbsp;&nbsp;&nbsp; <a id="path">"Plugins/kPlugLanguage/English_ui.txt"</a><br>
+          <br>
+          When translation are found, kPlug's settings will contain an option to
+          enable it. <br>
+          English is the native language, English translation is exactly the
+          same, it's provided for the purpose of creating translation, if you
+          don't need translation, remove the kPlugLanguage directory from
+          Plugins, language option will disappear from settings. </p>
+        <br>
+        <p id="subText"><a id="descrTitle">Create and Edit a translation</a><br>
+          <br>
+          To recognize a language kPlug need to find two corresponding files in
+          folder <a id="path">"Koikatu/Plugins/kPlugLanguage"</a>, these files
+          must match the following naming convention, <a id="path">Language_message.txt</a>
+          and <a id="path">Language_ui.txt</a><br>
+          <a id="minorText"> example: 日本語_message.txt and 日本語_ui.txt</a> </p>
+        <ul id="ctxUl">
+          <p id="contextWarn">kPlug only search for translation files when game
+            start, avoid to create or removed these files when the game is
+            running</p>
+        </ul>
+        <p id="subText"> To create a new translation, simply use or duplicate
+          the 2 files in English and replace "English" with the target language.
+          <br>
+          Then, to translate these files open them and replace the text between
+          "" with another one. When the text line in indexed do not remove or
+          translate the index part <a id="minorText"> <br>
+            ( example "0:This is the best! )" &gt; "0:これは最高です!"</a> <br>
+        </p>
+        <ul id="ctxUl">
+          <p id="contextWarn">Do not use those characters in translation " : { }
+            = </p>
+        </ul>
+        <ul id="ctxUl">
+          <p id="contextInfo">Translation files can be edited while the game is
+            running!</p>
+        </ul>
+        <div id="spacer"></div>
+      </div>
+      <br>
+      <br>
+    </div>
+    <hr id="CONFIG" style="visibility: hidden;">
+    <div id="sepSpacer"></div>
+    <div id="mainFrame">
+      <h1 id="FieldTitle" style="margin-top: -18.5667px;">¤ 设置 ¤</h1>
+      <div id="indexFrame"> <br>
+        <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+        <div id="summary">
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#CONFIGopen">打开设置菜单</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#CONFIGdescr">设置菜单</a> </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      <br>
+      <hr id="CONFIGopen" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="subTitleC" style="margin-top: -22.1333px; height: 29px;"> 打开设置菜单</h1>
+        <ul id="ctxUl">
+          <p id="contextInfo">T在标题界面、家中或者在校园内都可以打开这个菜单. 在校园内时, 必须先调出鼠标光标和右上角的按钮( 按下鼠标滚轮就可以看见了)<br>
+            它可以在H时打开，但略有不同。</p>
+        </ul>
+        <hr style="width: 100%; height: 342px; color: white; border-style: none; background-image: url(&quot;Images/configMenus.png&quot;);"
+
+          id="img"> <br>
+        <p id="inputDef">按下 <a id="inputRemind">Delete 键</a> 来打开 !</p>
+        <p id="inputDef"><a id="inputRemind">右ctrl</a>&nbsp; + <a id="inputRemind">Delete键</a>&nbsp;
+          用于在H场景中打开</p>
+        <br>
+        <p id="descrText"><a id="minorText">* 各项设置保存在
+            "Koikatu/Plugins/kPlugPrefs.txt", 删除这个文件将会重置你偏好的设置</a></p>
+        <div id="spacer"></div>
+      </div>
+      <br>
+      <hr id="CONFIGdescr" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">设置菜单</h1>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#CONF_comTab">常见标签（游戏内插件有翻译）</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#CONF_hTab">H选项标签（游戏内插件有翻译）</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#CONF_interTab">界面标签（游戏内插件有翻译）</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#CONF_hSession">会话标签</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#CONF_extra">额外标签</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <hr id="CONF_comTab" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"><br>
+          <p id="subTitleC" style="margin-top: -23px;"> - 常见标签（游戏内插件有翻译） -</p>
+          <br>
+          <p id="descrText"> <a id="descrTitle">kPlug语言项:</a> 如果找到翻译文件，你可以选择使用另一种语言。<br>
+            <br>
+            <a id="descrTitle">总是读取翻译 </a> 如果选择了一种语言，就会出现，如果打开，就会在每个游戏更新时读取翻译文件，可以编辑文本文件，kPlug会直接刷新修改后的内容。这个选项有一点消耗性能。 <br>
+            <br>
+            <a id="descrTitle">H行为将会消耗时间 :</a> H行为将会消耗时间&nbsp;
+            由滑动条指定 (在故事模式中) <br>
+            <br>
+            <a id="descrTitle"> Automatically invite Closest Girls :</a> At
+            school girls around will join if you start H, turn on or off this
+            features Slider set number that could join the scene. <br>
+            <br>
+            <a id="descrTitle">Retain Clothes States :</a> Let kPlug retain
+            clothes changes and semen covering on girls. This option have some
+            performance cost, turn it off will reduce kPlug's impact when
+            roaming at school.<br>
+            <a id="descrTitle">Girl know how to dress themselves?</a> ( appear
+            if Retain Clothes option is on )<br>
+            Girls put back their clothes or not after you strip them<br>
+            <br>
+            <a id="descrTitle">Messages color :</a> Defines color used when
+            kPlug is writing something on screen. <br>
+            <br>
+            <a id="descrTitle">Names Display Order :</a> Defines how kPlug
+            display the characters names, last name then first name or first
+            name then last name. This option can only be edited on Title screen.<br>
+            <br>
+            <a id="descrTitle">Display Translated Names :</a> main roster
+            characters have translated names, use the translation or display the
+            original Japanese writing. This impact H messages and Personal
+            Diary. <br>
+            <br>
+          </p>
+          <p id="descrText"> <a id="descrTitle"> Force H proposition after H :</a>
+            If enabled, in story mode kPlug will force date to end with a H
+            possibility, however it temporarily force the Girl friend status on
+            the dated girl so dialogue with "just a friend" are modified.<br>
+            <br>
+            <a id="descrTitle"> Let kPlug add Traits to girls based on Daily H
+              results :</a> If enabled, in story mode kPlug can add the Horny
+            and Lesbian Traits to a girl.<br>
+            <br>
+            <a id="descrTitle"> Enable Edits in Personal Diary :</a> Add a
+            Girl's save cheat in Diary tabs when at home. <br>
+            <br>
+            <a id="descrTitle">Show Girls when they are sleeping at home:</a><a>
+              Display 3d model for girls who stay at your home after evening H
+              session<br>
+              <br>
+            </a><a id="descrTitle">Use Audio reverb on some Locations :</a><a>
+              Add reverb effect in toilets, shower and pool map </a><a id="minorText">(
+              work also in free H )</a> <br>
+            <br>
+            <a id="descrTitle">Auto Toggle First Person View :</a> Launch First
+            person view at H start or not, Slider adjust the camera focal value
+            in first person view <br>
+            <br>
+            <a id="descrTitle">Use Right Shift as alternative shortcut </a><a id="descrTitle">at
+              H start </a><a>:</a> enable shift as shortcut for first person
+            view. Shift is used in game's shortcut to manipulate camera with
+            keypad combination... pretty useless but option exist for those who
+            have a keypad and use this camera moving function.<br>
+            <br>
+            <a id="descrTitle"> Enable shortcut : </a> ( appears when auto
+            toggle is off ) to turn off kPlug's first person view feature. <br>
+            <br>
+            <a id="descrTitle">Auto Toggle Smart UI at H start : </a> Directly
+            reduce UI at H start or not when Off<br>
+            A button enable shortcut appear, turning it off disable smart Ui
+            feature <br>
+            <br>
+            <a id="descrTitle">Use O key as alternative shortcut to open
+              Invitation menu : </a> If you have another mod that use the I
+            key, you can toggle this option to assign the O key to invitation
+            menu opening.<br>
+          </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#CONFIGdescr">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="CONF_hTab" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"><br>
+          <p id="subTitleC" style="margin-top: -23px;"> - H Options tab（游戏内插件有翻译） -</p>
+          <p id="descrText"> <br>
+            <a id="descrTitle">Display Messages on Screen during H :</a> Show or
+            hide screen messages during H scene <br>
+            <a id="minorText">( denial and process message not concerned )</a> <br>
+            <br>
+            <a id="descrTitle">Show H Results :</a> Display automatically
+            results messages after h scene <br>
+            <br>
+            <a id="descrTitle">Player Visibility Mode :</a> when using tools
+            Allow to change native game behavior when teasing a girl in piston
+            or services <br>
+            Normal : player disappear<br>
+            Shadows : Player just cast shadows<br>
+            Full: player stay visible<br>
+            <br>
+            <a id="descrTitle">Girls Think</a> If enable, the girls will lead
+            service, change pose and join the action&nbsp; by themselves during
+            H. <br>
+            <br>
+            <a id="descrTitle">Enable function Move and Bind when binders are
+              available :</a> Allow character binding when you move them to a
+            binder. <br>
+            <br>
+            <a id="descrTitle"> Enable Cosplay :</a> Girl in public receive the
+            same clothes when changing coordinates on main girl. <br>
+            <br>
+            <a id="descrTitle">Hold Accessories when loading coordinates :</a>
+            If on, Accessories aren't replaced when loading a coordinate <br>
+            <br>
+            <a id="descrTitle">Ecstatic mood breaks girl's denials :</a> Defines
+            if girl's denials are removed or not on the current day when the
+            girl reach the ecstatic mood ( only work on story mode )<br>
+            <br>
+            <a id="descrTitle">Needs of the girls in story mode :</a> Change the
+            requirements to reach satisfaction mood.<br>
+            <br>
+            <a id="descrTitle">Mr Dick Behavior :</a> Read menu tips to know
+            more about that options in this tab...<br>
+            <br>
+            <a id="descrTitle">Mr Dick Length :</a> Allow to reduce the player
+            dick length, it may create visual glitch for some animations.<br>
+            <br>
+            <a id="descrTitle">Mr Dick Diameter when inserted :</a> Read menu
+            tips to know more about that options in this tab...<br>
+            <br>
+            <a id="descrTitle">Minimum Excitation Limit :</a> Read the menu tips
+            to know more about that options... <br>
+            <br>
+            <a id="descrTitle">Min Excitation Raising Pace :</a> Read the menu
+            tips to know more about that options... <br>
+            <br>
+            <a id="descrTitle">Trance impact visual fx :</a> Define if during H,
+            player trance level impact the bloom and blur. <br>
+            <br>
+            <a id="descrTitle">Player Trance :</a> Read the menu tips to know
+            more about that option... <br>
+            <br>
+            <a id="descrTitle">Girls have a Penis :</a> Adds a penis on each
+            girl, main and guests, this option can only be changed outside H
+            session.<br>
+            <br>
+            <a id="descrTitle">Girls have balls :</a>When the option have a
+            penis is ON, defines the balls visibility.<br>
+            <br>
+            <a id="descrTitle">Length of girls penis:</a>When the option have a
+            penis is ON, Defines the length of girl's dick. <br>
+          </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#CONFIGdescr">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="CONF_interTab" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - Interface tab（游戏内插件有翻译） -</p>
+          <p id="descrText"> <a id="minorText"> * contains settings for kPlug
+              User Interface </a> <br>
+            <br>
+            <a id="descrTitle">Invitation menu setting : </a>Adjust size of
+            invitation menu with the slider. <br>
+            <br>
+            <a id="descrTitle">Smart UI settings :</a> <a id="minorText"> ( if
+              smart Ui feature is disabled, this part won't appear ) </a> </p>
+          <div id="subFrame"> <br>
+            <p id="descrText"> <a id="descrTitle">Button Size slider :</a>
+              adjust the size of button in Smart UI ( scene end, pose change
+              buttons ) <br>
+              <a id="descrTitle">Show Position Change Buttons : </a>Display or
+              not the position change button <br>
+              <a id="descrTitle">Show Face and Gauges : </a>Display or not Face
+              and Gauges When On, a slider appear to adjust the displayed size <br>
+            </p>
+            <br>
+          </div>
+          <br>
+          <p id="descrText"> <a id="descrTitle">Show Touch Tools : </a>
+            Display or not the Tool menu ( top-right corner menu ) When On, a
+            slider appear to adjust the displayed size </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#CONFIGdescr">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="CONF_hSession" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - 会话标签 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">此选项卡仅在H会话期间出现!</p>
+          </ul>
+          <p id="descrText"><br>
+            <a id="descrTitle">信息栏 :</a> 恢复会话时间和下一个周期之前的时间<br>
+            <a id="minorText"> ( 在故事模式中, 如果H消耗时间 )</a> <br>
+            <br>
+            <a id="descrTitle">调节光照氛围 :</a> 允许改变
+白天、夜晚或夜晚的光线环境 <br>
+            <a id="minorText">( 出现在 自由H 和 故事模式中，如果H消耗时间为OFF或冻结会话时间 )</a><br>
+            <br>
+            <a id="descrTitle">冻结会话时间 : </a>停止当前会话时间计数器<br>
+            <a id="minorText"> ( 出在故事模式, 如果H时消耗时间</a><a id="minorText">
+              打开</a><a> )</a> <br>
+            <br>
+            <a id="descrTitle">使用褐色滤镜</a> 应用单色滤镜。<br>
+            <br>
+            <a id="descrTitle">第一人称模式</a> : 使用滑块来调整相机的焦距值 <br>
+            <a id="minorText"> ( 在fpv模式下出现 )</a> <br>
+            <br>
+          </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#CONFIGdescr">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="CONF_extra" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - 额外标签 -</p>
+          <ul id="ctxUl">
+            <p id="contextWarn">此选项卡包含一些特殊的kPlug选项，你只能通过特定情况来打开这些标签！</p>
+          </ul>
+          <div id="subFrame">
+            <p id="descrText"> <a id="descrTitle">玩家是跨性别者?(FUTA模式)...</a> <br>
+              将玩家变成一个奇怪的女性...</p>
+            <ul id="ctxUl">
+              <p id="contextInfo"> 想要激活此标签，你必须在UserData / chara /中创建一个名为“ kFuta”的文件夹，并在其中至少放置一个角色的卡。 这些卡是你可以用作跨性别外观的模型。</p>
+            </ul>
+            <p id="descrText"> <a id="descrTitle">参考卡(Reference card):</a> 打开一个选择窗口，选择一张卡(kFuta文件夹内的那些卡)定义玩家外观。 <br>
+              <br>
+              <a id="descrTitle">在地图上使用女孩动作: </a>
+              用女性动作替换男性的行走和跑步动作。<br>
+              <br>
+              <a id="descrTitle">显示FUTA的蛋蛋:&nbsp;</a> 选择你有没有蛋<br>
+              <br>
+              <a id="descrTitle">玩家身上会弄脏吗?</a> 如果是，玩家的futa身体可以被精液覆盖。<br>
+              <br>
+              <a id="minorText"> (卡可以是男卡或女卡，但角色会以女孩的身份载入。不管你从菜单中选择查找或者加载存档，都只从futa cards文件夹读取。 ) </a> </p>
+            <br>
+          </div>
+          <br>
+          <div id="subFrame">
+            <p id="descrText"> <a id="descrTitle">是否允许邀请小伙伴加入H:</a> <br>
+              允许邀请其他男孩(或FUTA)参加H</p>
+            <ul id="ctxUl">
+              <p id="contextInfo"> 要激活此选项，你必须在UserData/chara/中创建一个名为«kBuddy»的文件夹。里面的卡片可用于邀请。女性卡将会加载为FUTA。 </p>
+            </ul>
+            <p id="descrText"> <a id="descrTitle">在Male文件夹中搜索卡片：</a>
+              启用此选项后，kPlug将会直接搜索男性卡。 <br>
+              <br>
+              <a id="descrTitle">是否开启小伙伴AI？ : </a>defines if buddies
+              will search partners by themselves. It also allow buddies to
+              automatically re-bind after a position change if they were bound
+              to main action.<br>
+              <br>
+              <a id="descrTitle">伙伴是否会说话 : </a>defines if buddies will
+              use voices, the sub options are for adjusting the moment where
+              they are going to talk.<br>
+              <br>
+              <a id="descrTitle">显示FUTA小伙伴的蛋蛋 : </a> Display or
+              hide the balls on futa-buddies .<br>
+              <br>
+              <a id="descrTitle">小伙伴的肉棒有多长 : </a> Defines the
+              length of each buddy's dick.<br>
+              <br>
+              <a id="minorText"> ( 如果激活了邀请选项，那么在H场景开始时将会读取卡片 If the option allow invitation is enabled,
+                the cards are read when a H scene starts ) </a> </p>
+            <br>
+          </div>
+          <br>
+          <div id="subFrame">
+            <p id="descrText"> <a id="descrTitle">在故事模式中邀请校外人员：</a> <br>
+              不是你的同学，启用后可以在家中、放学时间以及星期六的H中邀请</p>
+            <ul id="ctxUl">
+              <p id="contextInfo"> 在UserData/chara/中创建名为“ kWhore”的文件夹后，将出现此选项。 可以邀请里面的卡片。 </p>
+            </ul>
+            <p id="descrText"> <a id="descrTitle">在Female文件夹中搜索卡片
+                :</a> 启用此选项后，kPlug还将在“女性”文件夹中搜索。 <br>
+              <br>
+              <a id="minorText"> ( 如果激活了邀请选项，那么在H场景开始时将会读取卡片 If the option allow invitation is enabled,
+                the cards are read when a H scene starts ) </a> </p>
+            <br>
+          </div>
+          <ul id="ctxUl">
+            <p id="contextWarn"> 在使用BepInEx和sideLoaded mods机制的时候，当kPlug读取带有sideLoaded mod附件的卡时， <br>会影响游戏加载时间，影响时间的长短与这些卡的数量有关，数量越多，速度越慢。  <br>这就是为什么这些选项是通过额外的文件夹创建来激活的。  <br>如果你准备将卡片搜索范围扩大到男性和女性文件夹时，请牢记这一点。 </p>
+          </ul>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#CONFIGdescr">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+    <hr id="Gameplay" style="visibility: hidden;">
+    <div id="sepSpacer"></div>
+    <div id="mainFrame">
+      <h1 id="FieldTitle" style="margin-top: -19.5667px;">¤ 功能性增强 ¤</h1>
+      <div id="indexFrame"> <br>
+        <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+        <div id="summary">
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#GAMEsav">快速储存</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#GAMEshrtMenu">显示快捷键列表</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEfreeCam">自由镜头模式的使用</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEmapCmd">地图命令</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEcloth">服装行为</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEtime">时间演变</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEjukebox">点唱机</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEatHome">金屋藏娇</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#GAMEdating">同时和多个女生约会</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#GAMEdiary">私人日记和各种数据记录</a> </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      <br>
+      <hr id="GAMEsav" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 快速储存游戏 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">你可以在除了H场景中的任何时候进行存档
+          </p>
+        </ul>
+        <p id="inputDef">按下 <a id="inputRemind">左 ALT</a>+ <a id="inputRemind">左
+            SHIFT</a>+ <a id="inputRemind">Q</a> to save </p>
+        <div id="smallSpacer"></div>
+        <ul id="ctxUl">
+          <p id="contextWarn"> kPlug 插件会备份每次通过这个功能保存的存档到 UserData/save/game/kBackUp/... 注意这个文件夹的大小!<br>
+            使用 bepInEx 的 sideloaded mod 会大大增加存档时间，使用越多，耗费的时间越长!</p>
+        </ul>
+        <div id="spacer"></div>
+      </div>
+      <hr id="GAMEshrtMenu" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 显示快捷键列表 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">Except in Maker and title screen, when the mouse
+            cursor is visible, open a menu that resume all shortcuts if kPlug. <br>
+            Displayed shortcuts depends on the opening context.</p>
+        </ul>
+        <p id="subText">按下 <a id="inputRemind">S</a> 开启或关闭快捷键列表</p>
+        <div id="smallSpacer"></div>
+      </div>
+      <hr id="GAMEfreeCam" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 自由镜头模式的使用 -</p>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;"> 切换到自由镜头模式</p>
+        <hr style="width: 100%; height: 279px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/freeCam.png&quot;);"
+
+          id="img"><br>
+        <ul id="ctxUl">
+          <p id="contextInfo">能在大多数事件场景中生效, 对话, 校园内
+            ， 剧情事件以及H后</p>
+        </ul>
+        <p id="inputDef">按下 <a id="inputRemind">SHIFT</a> 来切换自由镜头的开启和关闭</p>
+        <br>
+        <p id="subText"> 当关闭自由滚动模式时, 最后的镜头位置将会保留，再次开启后将会恢复, 使用 <a id="inputRemind">ALT</a>+<a id="inputRemind">SHIFT</a>&nbsp;
+          来重置镜头到默认位置. </p>
+        <div id="spacer"></div>
+        <p id="subTitle" style="margin-top: -10px;"> 扒掉她的衣服！</p>
+        <hr style="width: 100%; height: 279px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/freeCamStrip.jpg&quot;);"
+
+          id="img"><br>
+        <ul id="ctxUl">
+          <p id="contextInfo"> 屏幕上将会显示你在盯着的位置的提示, 当这个提示出现后你可以去扒掉正在看的衣物.</p>
+          <br>
+        </ul>
+        <p id="inputDef"> 在自由镜头模式下，盯着妹子的胸部、臀部、手臂和腿部然后<br>
+          按下 <a id="inputRemind">P</a> 扒掉对应的衣物 <br>
+          <br>
+          你可以按下 <a id="inputRemind">Ctrl</a>+<a id="inputRemind">J</a>
+          来使妹子重新穿上衣服. </p>
+        <br>
+        <ul id="ctxUl">
+          <p id="contextWarn">在对话场景, 只有在妹子说话、被窥视或抚摸时才会有提示弹出，如果你在一段时间内你什么也不做的话，她会进入特殊的空闲状态.这时无论你怎么看都不会有任何消息出现</p>
+        </ul>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;"> 清洁妹子</p>
+        <hr style="width: 100%; height: 279px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/freeCamWash.png&quot;);"
+
+          id="img">
+        <ul id="ctxUl">
+          <p id="contextInfo"> 因为你（的欲求不满）妹子身上总是很脏? 那就通过对话来清洁 !<br>
+            除了处于愤怒状态中, 清洁妹子会提高好感度，好感度已满时则会使H度达到满额 (爱干净的妹子会更加明显！ ). </p>
+        </ul>
+        <p id="inputDef"> 在自由镜头中, 盯着女孩的脸、臀部或者胸<br>
+          按下 <a id="inputRemind">W</a> 来清洁这个部位 <br>
+          <a id="minorText">( 必须先看见"looking on ..."的提示 )</a> </p>
+        <div id="smallSpacer"></div>
+        <p id="subTitle" style="margin-top: -10px;"> 对妹子进行调戏</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">想要提高好感度或者H度? 稍微调戏一下吧!<br>
+            对有好色属性的妹子更有效果.</p>
+          <p id="contextWarn">当H度已经满了的时候，调戏将会使她对H的欲望达到最大 ! (发生这个情况时会有提示音 )
+            <br>
+            根据个人情况，她会去自慰/百合/或者找你帮她解决这种欲求不满的情况（取决于人物状态 好感度/是否处女） </p>
+        </ul>
+        <p id="inputDef"> 在自由镜头中, 盯着女孩的脸、臀部或者胸然后<br>
+          按下 <a id="inputRemind">T</a> ( 必须先看见"looking on ..."的提示 )<br>
+        </p>
+        <div id="spacer"></div>
+      </div>
+      <hr id="GAMEmapCmd" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 地图上的特殊命令
+          -</p>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;"> 一键变性</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">此功能与FUTA选项相关，必须可访问并且必须选择参考卡(Reference card)。( 跳到 <a href="#CONF_extra" style="color:white;"> 额外标签</a>
+            ). </p>
+        </ul>
+        <p id="inputDef">按 <a id="inputRemind">F</a> 按F键将玩家变成女孩（或变回男性） </p>
+        <p id="inputDef">* 在H期间，玩家将保持这个外观，无法更改。</p>
+        <hr style="width: 100%; height: 279px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/futaOnMap.png&quot;);"
+
+          id="img">
+        <div id="smallSpacer"></div>
+         <p id="subTitle" style="margin-top: -10px;"> X光透视</p>
+        <p id="inputDef">当在学校中时按下 <a id="inputRemind">P</a>
+          来透视服装下妹子的身体 ! </p>
+        <hr style="width: 100%; height: 279px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/xRay.png&quot;);"
+
+          id="img"><br>
+        <ul id="ctxUl">
+          <p id="contextInfo"> X光透视模式结束后会有30秒的冷却时间 <br>
+            你可以通过P键使持续时间翻好几倍.<br>
+            在X光透视模式下开始H,你将会看见全裸的妹子，不论是否处女 !</p>
+        </ul>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;"> 第六感</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">使你能确定谁在淋浴，谁在上厕所，谁在自慰以及谁在和其他妹子百合.</p>
+        </ul>
+        <p id="inputDef">按下 <a id="inputRemind">O</a> 键使你能在30秒内获得第六感! </p>
+        <div id="spacer"></div>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;">来玩捉迷藏吧</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">与你在相同地点的妹子将会离开并且寻找一个地点自慰，有百合属性的妹子则可能会找其他人百合.</p>
+        </ul>
+        <p id="inputDef">按下 <a id="inputRemind">H</a> 键来让所有人开始这个模式 !  </p>
+        <ul id="ctxUl">
+          <p id="contextWarn">在你被妹子追赶的时候这个功能可能会帮到你
+            !<br>
+           妹子至少要达到朋友的关系才会接受这个“游戏”...</p>
+        </ul>
+        <div id="spacer"></div>
+        <p id="subTitle" style="margin-top: -10px;"> 静待夜幕</p>
+        <p id="inputDef">夜行侠？ 按下 <a id="inputRemind">N</a> 夜闯校园</p>
+        <div id="spacer"></div>
+      </div>
+      <br>
+      <hr id="GAMEcloth" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+       <p id="subTitleC" style="margin-top: -21px;"> - 服装行为 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo"> 战斗之后，服装的状态和子孙的痕迹将会保留女方身上<br>
+            取决于选项 "她学会了如何穿衣服 ?",
+            女方会根据设定，H或者其他脱衣事件之后是否把她的衣服穿好 </p>
+          <p id="contextWarn"> 不管选项设定了什么，只要女方没有跟随你，并且进入了更衣室或者浴室，<br>
+            &nbsp; 洗漱更衣之后，她的衣服状态将会还原.</p>
+          <p id="contextWarn"> 一天之后她们的衣服状态也会还原 </p>
+        </ul>
+        <p id="subText"> 在每次H或者你在对话时脱了她衣服之后，都会有一次判定 <br>
+          当选项“她学会了自己穿衣服？”开启时，她会在几秒内穿好衣服，当然，在跟随你的模式下不会发生 </p>
+        <div id="spacer"></div>
+      </div>
+      <br>
+      <hr id="GAMEtime" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 时间进化 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">当选项“H消耗时间”开启时，H时，时间仍会流逝(具体比例可以在设置里调整)<br>
+            当铃声响起时，意味着到了下一个时间段了 </p>
+        </ul>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;"> 时间算法 </p>
+        <ul id="ctxUl">
+          <p id="contextInfo"> 游戏中，一个时间段大概持续500秒.<br>
+            在H时 时间会按照一定比例流逝 </p>
+        </ul>
+        <p id="subText"> <br>
+          例如，如果您定义一个15分钟的会话持续时间，并且花费了H中的5min，那么您消耗了1/3的15分钟，所以在游戏的周期计数器中恢复将会是1/3的500秒。<br>
+          <br>
+          这个比率在H开始时也用于定义下一个周期之前的剩余时间。<br>
+          比方说，如果H会话以100秒的游戏周期计时器开始，那么游戏周期中的1/5已经消失（500s/5=100s）……在这种情况下，H会话的持续时间是15分钟-3分钟（15分钟的1/5），也就是12分钟！ </p>
+        <div id="spacer"></div>
+         <p id="subTitle" style="margin-top: -10px;"> 夜晚中的学校 </p>
+        <ul id="ctxUl">
+          <p id="contextWarn"> 当你啪啪啪到晚上时，将会进入夜晚中的学校 </p>
+        </ul>
+        <hr style="width: 100%; height: 312px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/timeNightAtSchool.png&quot;);"
+
+          id="img"><br>
+        <p id="subText"> 当夜幕降临，NEXT按钮将会失效，你必须按 <a id="inputRemind">F8</a>
+          或者找一个女生跟你一起回家 </p>
+        <div id="spacer"></div>
+      </div>
+      <hr id="GAMEjukebox" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 点唱机 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">点唱机可以让你改变背景音乐，所有的游戏音乐都是可用的，你也可以添加自己的音乐…</p>
+        </ul>
+        <p id="inputDef">在一般情况下，鼠标光标可见时，按<a id="inputRemind">J</a> 打开点唱机! </p>
+        <br>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;">创建和添加个性化的音乐… </p>
+        <p id="subText"> If you want to add your custom playlist into the
+          jukebox it requires a little knowledge in modding and SB3utility... <br>
+          There are 20 additional tracks in the archive folder <a id="path">"kPlugMisc/customBGM/"</a>.
+          Use these files to inject your own favorite music, follow the next
+          steps and don't be afraid, that's super easy!<br>
+          <br>
+          1 - Copy the .unity files (and the corresponding .resource) you need
+          into the game folder <a id="path">"Koikatu/abdata/sound/data/bgm/"</a>.
+          If the files are not in the folder structure of the game, it won't
+          work !<br>
+          <br>
+          2 - Open the .unity in SB3utility and just replace the audio file by
+          the one you want and save. <br>
+          * Disable the keep backup option in SB3utility<a id="minorText"> (
+            files tab, options menu, Keep BackUp )</a><br>
+          * The source file must have the same name as the bgm you're replacing
+          !<a id="minorText"> ( e.g. replacement file for bgm_36 could be named
+            bgm_36.wav )</a> <br>
+          *.mp3 are not supported, you can use the audio compression format .wav
+          or .ogg and maybe a few others. Note that .wav is an uncompressed
+          format, it will result in large file size, that's not really a problem
+          but you should considerate using another format. <br>
+          * If you need a tool to change the format of your tracks, you can use
+          Audacity, it's an open source and powerful software. <br>
+          <br>
+          3 - ( optional ) To display a custom name for a track in the
+          jukebox... You can use the <a id="path">"kBgm.txt"</a> from the
+          archive folder <a id="path">"kPlugMisc/CustomBGM/"</a>, copy this
+          file into the game folder <a id="path">"Koikatu/abdata/sound/data/bgm/"</a>
+          then edit the text which is inside.<br>
+          <a id="minorText">( custom names will works for your own playlist and
+            game's music except the two first songs )</a> </p>
+        <div id="spacer"></div>
+      </div>
+      <hr id="GAMEatHome" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 金屋藏娇 -</p>
+        <p id="subTitle" style="margin-top: -10px;">在家里的女孩们 </p>
+        <ul id="ctxUl">
+          <p id="contextInfo">你可以看到并管理住在你家的败家女人<br>
+            如果触发了晨炮，这时在你家的所有女生都会加入进来（此时无法使用邀请人物卡功能）</p>
+        </ul>
+        <hr style="width: 100%; height: 312px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/AtHome.jpg&quot;);"
+
+          id="img"><br>
+        <p id="subText"> 参加完晚上房间里的的群P大会后，女孩们会留在你的房间，或者你也可以使用邀请功能邀请她们。<br>
+          <br>
+          主要的女生可以遣散，当没其他女生在的时候<br>
+          <br>
+          没有限制你可以让多少名女生在家，但是房间菜单只显示十个模型，<br>这些角色以低模版本加载，以增加加载时间。（是我看错了还是作者写错了？） <br>those characters
+          are loaded in low poly version to increase loading time.<br>
+          <br>
+          * 女孩们睡姿展示与“显示女孩在家里睡觉”选项有关</p>
+        <br>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;">短信 </p>
+        <p id="subText"> 根据你的白天行为，满意和不满意的女孩会在晚上给你发信息。你可以通过单击收件箱图标单独删除邮件或最小化邮件。
+<br>
+          到达第二天时，这些邮件将被删除。<br>
+        </p>
+        <br>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;">改变氛围 </p>
+        <p id="subText">一个简单的滤镜功能，可以营造灯光氛围
+按下 <a id="inputRemind">L</a> 快捷键开启.<br>
+        </p>
+        <br>
+        <br>
+        <p id="subTitle" style="margin-top: -10px;">跳到周六</p>
+        <p id="subText">Can't wait for dating day? 按下 <a id="inputRemind">Ctrl</a>+<a
+
+            id="inputRemind">S</a> 直接跳到周六晚上<br>
+        </p>
+        <div id="spacer"></div>
+      </div>
+      <hr id="GAMEdating" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="subFrame"> <br>
+        <p id="subTitleC" style="margin-top: -21px;"> - 同时和多个女生约会 -</p>
+        <ul id="ctxUl">
+          <p id="contextInfo">性生活的丰富使你脑子出问题了 ?你居然答应了几十个女生去约会！<br>
+            没关系，现在你可以宠幸她们每一个人了</p>
+        </ul>
+        <p id="subText"> kPlug 可以强制使约会以H事件做为结尾, 因此你只要确保让约会清单上的每个女孩开心就可以了<br>
+          你约会名单上的其他女孩保存在邀请菜单中的一个特殊的“约会”标签中。</p>
+        <div id="smallSpacer"></div>
+      </div>
+      <br>
+      <hr id="GAMEdiary" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <p id="frameTitle" style="margin-top: -21px;"> - 私人日记和各种数据记录 -</p>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#GAMEdiary_open">打开和关闭实时日记</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#GAMEdiary_tool">实时日记中的小工具</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#GAMEdiary_tabs">“日记”标签说明</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#GAMEdiary_stats">日常生活与行为统计</a>
+              </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#GAMEdiary_hRes">H 结算界面</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <br>
+        <hr id="GAMEdiary_open" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+           <h1 id="subTitleC" style="margin-top: -22.1333px; height: 29px;"> 打开并操作你的日记</h1>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 打开和关闭实时日记</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">这个菜单能让你查看妹子的性格、经验以及各个属性数值等信息
+              </p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 你能够在家中、学校（鼠标光标可见时）以及在与妹子对话时打开它.</p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextInfo">日记也能在H过程中打开.但只能查看当前的妹子的档案，而且只有H经验和对话次数2个统计栏可以使用</p>
+          </ul>
+          <hr style="width: 100%; height: 304px; color: white; border-style: none; background-image: url(&quot;Images/diary.png&quot;);"
+
+            id="img"> <br>
+          <p id="subText">按下 <a id="inputRemind">Y</a> 来开关</p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">在档案界面</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">会显示一个包含你现在存档中所有妹子的滚动列表. <br>
+              在对话界面时，这个菜单只会显示你当前对话的妹子 !</p>
+          </ul>
+          <p id="subText"><a id="inputRemind">滚动滚轮</a> 或者使用滑条来选择列表中的角色, <a id="minorText"> <br>
+              * 当光标在目录上时滚轮将不起作用.<br>
+            </a></p>
+          <p id="subText"><a id="inputRemind">上箭头</a>&nbsp; 或者<a id="inputRemind">下箭头</a> 来移动到列表的开头和结尾..</p>
+          <p id="subText"><a id="inputRemind">左箭头</a>&nbsp; 和 <a id="inputRemind">右箭头</a> 能在档案界面中进行角色切换).</p>
+          <p id="subText"> <a id="inputRemind">Control</a>+<a id="inputRemind">左箭头</a> 和 <a id="inputRemind">Control</a>+<a id="inputRemind">右箭头</a> 来在档案的各个栏之间进行切换.</p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#GAMEdiary">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="GAMEdiary_tool" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;">- 实时日记中的小工具 -</p>
+          <p id="subTitle" style="margin-top: -10px;">移动到妹子所在地
+          </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在校园中,使用 "到这里" 按钮前往妹子的所在地!&nbsp;<br>
+              (这个按钮只有在妹子与你不在同一场景时才能使用 ) </p>
+          </ul>
+          <hr style="width: 100%; height: 261px; color: white; border-style: none; background-image: url(&quot;Images/diaryMove.png&quot;);"
+
+            id="img"> <br>
+          <p id="subTitle" style="margin-top: -10px;">呼叫女孩</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在学校里，如果那个女孩是你的朋友，旁边会出现一个“呼叫”按钮，点击便能把那个女孩带到你所在的地方 <br>
+              ( 显然，按钮只有在女孩的位置与你的位置不同时才可用 ) </p>
+          </ul>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">邀请一个女孩到你的房间</p>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 在家里时，如果那个女孩已失身了，则可以使用“邀请你进入房间”按钮
+              </p>
+          </ul>
+          <p id="subText" style="margin-top: -10px;"> * 这里kPlug使用了一个小技巧，故事人物可以被邀请，但当其中一个被邀请为主要女孩时，
+            kPlug将使用你的一个普通同学，暂时以故事人物的形象取代她。 因此，有一个女孩将从日记中消失。  <br>
+            kPlug将选择一个非处女且不在下一个星期天的约会计划中的女孩，如果没有符合这些要求的女孩，则不能邀请故事角色。 <br>
+            kPlug需要保留女孩的原始状态，出于安全考虑，此时禁止保存游戏，如果你进入保存或者教室菜单，它会自动取消邀请</p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">管理约会</p>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 星期六晚上在家，你可以从日记中询问或取消与女孩的约会</p>
+          </ul>
+          <p id="subText" style="margin-top: -10px;"> * 不适用于故事人物...但是，如果你在周六晚上邀请一个故事人物在你的房间里做主要女孩，那她将成为周日的约会对象！</p>
+          <hr style="width: 100%; height: 261px; color: white; border-style: none; background-image: url(&quot;Images/fixCharaAtHome.png&quot;);"
+
+            id="img">
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#GAMEdiary">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="GAMEdiary_tabs" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <h1 id="subTitleC" style="margin-top: -22.1333px; height: 29px;">“日记”栏说明 </h1>
+          <ul id="ctxUl">
+             <p id="contextInfo"> 如果亲密度过低, 则只会显示"关于她" 一个栏.<br>
+              亲密度至少要达到朋友级别,除非你已经和她H过了.&nbsp; <br>
+              对于剧情中的女主人公,在你完成事件线之前亲密度都很低. <br>
+              对于老师们，在你与她们H之前亲密度都很低. </p>
+          </ul>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 关于她</p>
+          <p id="subText" style="margin-top: -10px;"> 显示性格、属性特征、社团活动以及与玩家的关系程度 <br>
+            也会显示你们约定好的约会.</p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> 日常数据</p>
+          <p id="subText" style="margin-top: -10px;"> 显示妹子当前的好感度、H度、是否生气、是否处女等信息. <br>
+           显示她当前对于玩家的想法和日常行为， 色色的想法和日常生活都有</p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> H 经验</p>
+          <p id="subText" style="margin-top: -10px;"> 显示妹子的拒绝次数和H经历.&nbsp; </p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> 编辑</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">只能在家里使用并且需要开启“允许编辑个人档案”功能 </p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextWarn">不能编辑剧情角色! <br>
+              她们的数据和游戏进度有关.</p>
+          </ul>
+          <br>
+          <p id="subText" style="margin-top: -10px;">这一栏允许改变存档中的妹子的所有参数. <br>
+            性格, 属性特征, H经验, 社团活动以及与玩家的关系程度 都能被修改. </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#GAMEdiary">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="GAMEdiary_stats" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <h1 id="subTitleC" style="margin-top: -22.1333px; height: 29px;">日常生活与行为统计</h1>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 每日统计数据</p>
+          <p id="subText"> 每日统计数据会记录你与女同学们的所有互动，学习/吃饭/聊天/社团活动,当然还有H！<br>
+            这些数据都会影响到女同学们的状态，包括“日常情绪”. </p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">想法和评价</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">想法在每日统计数据的底下显示，评价 在H结算界面显示</p>
+          </ul>
+          <p id="subText"> 想法和评价取决于女生们的“日常情绪”，而这个取决于玩家的行为，以下是各种颜色所代表的情绪状态;<br>
+          </p>
+          <ul id="moodColors">
+            <a id="inputRemind" style="color:red;">红色</a> 情绪低下且非常愤怒
+            ! <br>
+            <a id="inputRemind" style="color:orange;">橙色</a> 情绪有点差...<br>
+            <a id="inputRemind" style="color:white;">白色</a> : 普通的情绪<br>
+            <a id="inputRemind" style="color:pink;">粉红色</a> : 她正高兴着呢！<br>
+            <a id="inputRemind" style="color:magenta;">品红色</a> 她欣喜若狂 !<br>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextWarn"> 一些状态在本日起着决定性作用 <br>
+              危险期, 体验极差的第一次, First Time Ruined are final
+              judgements...（这句真翻不动。。）<br>
+              不论是否处于“欣喜若狂”状态 </p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextWarn"> 在少数情况下，品红色的想法并不代表着她正处于欣喜若狂状态，取决于她对H过程的评价和她的H值 </p>
+          </ul>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">是什么影响了女生们的小情绪 ?</p>
+          <p id="subText"> 校园中的日常行为！当然，最主要的还是她们H的过程的体验 <br>
+            让我们一起看一下一些关键点（敲黑板） . </p>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 她们喜欢你刺激她们的敏感部位...<br>
+              你的女朋友非常享受你们接吻的时刻 !<br>
+              这些内心敏感的小妖精，她们喜欢被倾听 ! <br>
+              敏感又好色，她们想要达到高潮！.</p>
+            <p id="contextWarn"> 不询问直接爆菊通常不是一个好选择 !<br>
+              她们想要你戴上那个套套的时候，你不听，你要享受无套的乐趣，这没什么大不了的...直到你射在了里面(愤怒)...</p>
+            <p id="contextWarn"> 女生们远比你们这群处男想象得更加敏感，不要搞砸你们最美好的时刻!不然她会直接逃跑</p>
+            <p id="contextInfo">如果你一直倾听她得诉求，她会不介意看着你和别人 做爱做的事<br>
+              当然，如果你让她们参与进来，”协同合作“（见目录）的话，她会更感激你...</p>
+            <p id="contextWarn">一些行为对她来说非常美好，但是 ! 同一件事情持续一整天将会变成痛苦，她可不想被干一整天 <br>
+              你这个没性生活的小处男!不要搞砸女生们的第一次！后果自负！</p>
+            <p id="contextWarn">偷窥洗澡或者尿尿的时候实在是抵抗不住自己了? <br>
+              如你所愿！但我不保证她们人人都喜欢这么做（见特殊H场景雷普部分）...</p>
+          </ul>
+          <div id="smallSpacer"></div>
+          <p id="subText"> 一个女生是否满足或者失望取决于她的性格和特质<br>
+            某些性格特质的女生会有特殊的反应...</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">病娇有SM倾向，她们只会在你多次拒绝她H请求时感到失望.</p>
+            <p id="contextInfo">母性女喜欢当妈妈 !大胆地无套中出她们吧！她们没有怀孕压力！危险期？不存在的！她们就是生娃机器</p>
+          </ul>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">情绪造成的影响</p>
+          <p id="subText"> 如果你们的H体验不佳，女生对你的评价过低，最好的情况下只会减少好感和H度，最坏的情况下会导致愤怒。良好的H体验会提升好感度和H度</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">一次"挫败"的H体验会降低她们的好感，但是会增加H度，如果好感度&nbsp; 不够扣了，会变成愤怒状态 </p>
+            <p id="contextInfo" style="background-color: rgba(235, 135, 172, 0.95);;">一位正在“欣喜若狂”状态下的女生会忘记所有的烦恼 !<br>
+              随便你怎么搞，好感度和H度都会维持在999一整天.</p>
+            <p id="contextWarn">当愤怒值达到100，别浪费口水去道歉了，过几天再说吧...<br>
+            </p>
+          </ul>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">一天结束后，情绪的不同所造成的影响</p>
+          <ul id="ctxUl">
+            <p id="contextInfo" style="background-color: rgba(235, 135, 172, 0.95);;">你会收到她们“愉悦”的感激短信!</p>
+            <p id="contextWarn">但是。如果你搞砸了，让女生生气了，或许会收到坏消息或者分手短信...<br>
+            </p>
+            <p id="contextInfo"> 如果她们在“欣喜若狂”的评价和情绪下结束一天，她们会得到一些特质<br>
+              - 好色 ( 如果她还没有的话 ) <br>
+              - 喜欢女孩子 ( 在有好色特质并且没有喜欢女孩子特质的情况下 ) </p>
+            <p></p>
+          </ul>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#GAMEdiary">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="GAMEdiary_hRes" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+           <p id="subTitleC" style="margin-top: -21px;">- H 结算界面 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">H结算界面将会在H之后显示. <br>
+              他会结算每个女生的好感度，H度，和愤怒值，甚至有她对这次H的评价 !</p>
+          </ul>
+          <p id="subText"> 结算界面将会自动显示，这取决于
+            <a id="path">"H 结算界面选项"</a> 是否开启，你可以按下 <a id="inputRemind">Insert</a> 开启关闭结果显示</p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#GAMEdiary">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <div id="spacer"></div>
+      </div>
+      <br>
+    </div>
+    <hr id="H" style="visibility: hidden;">
+    <div id="sepSpacer"></div>
+    <div id="mainFrame">
+      <h1 id="FieldTitle" style="margin-top: -19.5667px;">¤ H功能增强 ¤</h1>
+      <div id="indexFrame"> <br>
+        <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+        <div id="summary">
+          <ul class="niveau1" id="indexBut">
+            <li><a href="#Hcommon">基础快捷键</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hpiston">插入模式 快捷键</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hservice">侍奉模式 快捷键</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Htease">爱抚模式 快捷键</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hcombo">H中的combo！连招系统</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hmult">多人H模式</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hsp">特殊H场景</a> </li>
+          </ul>
+          <ul class="niveau1" id="indexBut">
+            <li> <a href="#Hcloth">H模式下衣服的操作</a> </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      <hr id="Hkeyboard" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+          先看看我们一共用了多少个键位</h1>
+        <hr style="width: 100%; height: 234px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/hShortcut.png&quot;);"
+
+          id="img">
+        <p id="subTextNote"> 绿色的按键是本插件占用的键位<br>
+        </p>
+        <p id="inputDef">按 <a id="inputRemind">S</a> 显示快捷键列表</p>
+        <br>
+        <br>
+      </div>
+      <hr id="Hcommon" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+          基础快捷键</h1>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#HSmartUI">智能UI</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#HFpv">第一人称视角</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HPointMov">H地点移动</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#AnimSel">额外的姿势和选择</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#MapSel">地图选择</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HInvite">邀请角色界面</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HGirlThink">女孩的自动模式</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HSpineBend">男角色h时前倾后仰的程度</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <hr id="HSmartUI" style="visibility: hidden;"> <br>
+        <div id="smallSpacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;">- 智能UI -</p>
+          <p id="inputDef"><a id="inputRemind">F9</a> 或 <a id="inputRemind">按键
+              delete</a> </p>
+          <p id="inputDef">切换智能UI的开关</p>
+          <hr style="width: 100%; height: 236px; color: white; margin-left: auto; margin-right: auto;
+            background-image: url(Images/smartUi.png );" id="img"> <br>
+        </div>
+        <hr id="HFpv" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - 第一人称视角
+            -</p>
+          <p id="subTitle" style="margin-top: -10px;"> 进入或者重置第一人称视角</p>
+          <p id="subText"><a id="inputRemind">Keypad 0</a>或者 <a id="inputRemind">SHIFT
+              </a></p>
+          <p id="subText"> 当第一人称视角没有开启时，进入第一人称视角，如果已经开启，那会重置视角 </p>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 如何退出第一人称视角</p>
+          <p id="subText"> <a id="inputRemind">Control</a>+<a id="inputRemind">Keypad
+              0</a> 或者 <a id="inputRemind">Control</a>+<a id="inputRemind">SHIFT</a>
+          </p>
+          <p id="subText">当第一人称视角开启时，会退出</p>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 光线投照控件</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">这只在第一人称视角时才可以用 !</p>
+          </ul>
+          <p id="subText"><a id="inputRemind">Keypad /</a> 或者 <a id="inputRemind">F10
+              </a></p>
+          <p id="subText"> 使用或者禁用光线投照控件，这个插件的目的是为了把光照更容易投射到场景中（你可以按住小键盘0禁用这个控件）</p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="HPointMov" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - H地点的移动
+            -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">仅在智能UI开启时可用 !</p>
+          </ul>
+          <p id="inputDef"><a id="inputRemind">空格 键</a> 进入或者退出H地点移动界面</p>
+          <br>
+          <hr style="width: 100%; height: 399px; color: white; margin-left: auto; margin-right: auto;
+            background-image: url(Images/pointMove.jpg);" id="img">
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="AnimSel" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -22px;"> -额外的姿势和选择-</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">打开一个UI，可以让你选择姿势<br>
+              可通过此UI访问kPlug额外附加的姿势，所有姿势均为蓝色文本。</p>
+          </ul>
+          <hr style="width: 100%; height: 261px; color: white; border-style: none; background-image: url(&quot;Images/poseSelector.jpg&quot;);"
+
+            id="img"><br>
+          <p id="inputDef"> 按 <a id="inputRemind">U</a> 打开此菜单 </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="MapSel" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -22px;"> - 地图选择 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在大多数H的时候，你可以随意更换地图!<br>
+              在自由H和特殊故事情节时，该功能不可用</p>
+          </ul>
+          <p id="inputDef"> 按 <a id="inputRemind"> Tab</a> 打开地图选择菜单 </p>
+          <br>
+          <p id="subText">*要求使用站立式，这意味着在坐，墙，书桌等情况下均无法使用。</p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="HInvite" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -23px;"> - 邀请角色界面 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">！在故事模式中一旦女孩失去了第一次，她们就可以被邀请，同时要求她们不是处于赌气状态。根据设置和日期，别的角色也会可以被邀请进入。 <br>
+              ！在自由h模式中，角色卡在“Userdata/chara/female”目录下 </p>
+          </ul>
+          <p id="inputDef"><a id="inputRemind">Key I</a> 进入或者退出邀请界面，如果你想邀请她，点击角色卡即可<br>
+            <br>
+            ( 有一个选项可以用O键替换I，如果I键被另一个mod占用，则可以使用鼠标右键关闭菜单 )</p>
+          <br>
+          <hr style="width: 100%; height: 399px; color: white; margin-left: auto; margin-right: auto;
+            background-image: url(Images/InviteUI.jpg);" id="img"> <br>
+          <p id="subTitle" style="margin-top: -10px;">随机邀请</p>
+          <p id="inputDef">按 <a id="inputRemind">Ctrl + Key I</a> 随机邀请一个女孩.<br>
+            ( or Ctrl + O key )</p>
+          <br>
+          <p id="subText"> * 角色在自由h中显示为卡片，在故事中显示为头部图片<br>
+            * 如果限制了在学校的女孩的数量，那么消失的女孩在回家之前是不可用的。 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在周日的H时间，如果其他女孩在你的约会列表中，则会出现“约会”标签，并收集所有脸颊！ !</p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextInfo">如果选项“是否允许邀请小伙伴加入H”是打开的，则可以访问“好友（Buddies）”选项卡。它允许你邀请其他雄性到H。
+            </p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextInfo">如果选项“在故事模式中邀请校外人员”是打开的，菜单中就会出现“妓女（Whores）”选项，但仅限于你周六在家或在学校，以及在一周的下课时间。</p>
+          </ul>
+          <p id="subText"> * 默认情况下，邀请女孩和小伙伴功能是隐藏的，请检查手册中的额外标签介绍。.</p>
+          <ul id="ctxUl">
+            <p id="contextWarn"> kPlug的运作依赖于角色名称，并且不允许多个具有相同名称的角色，因此不会显示具有相同名称的其它卡。 </p>
+          </ul>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="HGirlThink" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -22px;"> - 女孩的自动模式 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">启用此选项后，H时，主要女孩将会主动侍奉和更换姿势，如果有其他女孩在场，她们将自动加入并让自己来替换主要女孩。 在做爱时，女孩只能以女上位的姿势来主导。注意，在某些特殊情况下，此选项无效。 </p>
+          </ul>
+          <p id="inputDef"> H中, 按 <a id="inputRemind"> Control</a> + <a
+
+              id="inputRemind"> T</a> 来启用或关闭.<br>
+          </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <hr id="HSpineBend" style="visibility: hidden;"> <br>
+        <div id="spacer"> </div>
+        <div id="subFrame"> <br>
+         <p id="subTitleC" style="margin-top: -22px;"> - 男角色h时前倾后仰的程度 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">这只在侍奉模式或者抽插状态下有用</p>
+          </ul>
+          <p id="inputDef"> 同时按住 <a id="inputRemind"> Control</a> + <a id="inputRemind">
+              wheel scroll</a> 或者&nbsp; <a id="inputRemind"> keypad +</a> 和 <a
+
+              id="inputRemind"> keypad –&nbsp;</a> keys <br>
+          </p>
+          <p id="inputDef">控制男角色h时前倾后仰的程度</p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hcommon">返回索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+      </div>
+      <hr id="Hpiston" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+          抽插模式 快捷键 </h1>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">索引</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li><a href="#HpisBasic">基础操作</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HpisPosNav">姿势的切换</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HpisMotion">姿势行为的具体改变</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <hr id="HpisBasic" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;"> - 基础操作 -</p>
+          <p id="subTitle" style="margin-top: -10px;"> 穿戴避孕套</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">只在闲置模式有效（除了你处在combo数（附注：后文有提到）模式下，看见combo数）</p>
+          </ul>
+          <p id="inputDef"><a id="inputRemind">K Key</a>, 可以控制避孕套有无</p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> 专注于交合时的姿势</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">改变一点点啪啪啪时候的位置，获得更好的游戏体验</p>
+          </ul>
+          <p id="inputDef">用键盘, 按 <a id="inputRemind">Keypad 3</a>
+            和 <a id="inputRemind">Keypad 9</a> <br>
+            或者用鼠标, </p>
+          <p id="inputDef">按住 <a id="inputRemind">control</a> +<a id="inputRemind">RMB</a>,
+            然后滚动 <a id="inputRemind">滚轮</a> <br>
+          </p>
+          <br>
+          <p id="subText">附注： <a id="inputRemind">right mouse button</a>
+            和 <a id="inputRemind">wheel scroll</a> 如果鼠标右键和鼠标滚轮按住但没有按住ctrl，那么其他的模式，比如combo的判定或者插入会被先行判定<br>
+          </p>
+          <div id="spacer"></div>
+        </div>
+        <br>
+        <hr id="HpisPosNav" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -20px;"> - 如何切换插入姿势 -</p>
+          <ul id="ctxUl">
+            <p id="contextWarn">姿势都是分组的!<br>
+              姿势是否可以选择切换取决于地图位置,&nbsp; h地点，后背位还有正对位，以及你是否在闲置状态下或者抽插状态中 </p>
+          </ul>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 如何退回上一个姿势或者切换下一个姿势做爱 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你可以在闲置状态下或者在抽插状态下操作（在抽插状态下已解锁的姿势会有不同）</p>
+          </ul>
+          <hr style="width: 100%; height: 167px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/posNavPist.png&quot;);"
+
+            id="img">
+          <p id="inputDef"> <a id="inputRemind">Insert</a> ( 或者 <a id="inputRemind">keypad
+              7</a> ) 和 <a id="inputRemind">Backspace</a> 键</p>
+          <p id="inputDef">退回上一个姿势或者切换下一个姿势做爱<br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> 后背位或者正对位的切换 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你只能在拔出模式下进行 !</p>
+          </ul>
+          <hr style="width: 100%; height: 271px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px;
+            background-image: url(Images/posNavPistSide.png);" id="img">
+          <p id="inputDef"> <a id="inputRemind">Control</a> + <a id="inputRemind">Insert</a>
+            ( 或者 <a id="inputRemind">keypad 7</a> ) 和 <a id="inputRemind">Control</a>
+            + <a id="inputRemind">Backspace</a> <br>
+            切换后背位或者正对位（这同时取决于你已经解锁多少姿势） </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从抽插切换成爱抚模式</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你只能在闲置或者外射后做。若切换也被判定为combo数（附注：combo模式下文涉及）或者只有女孩子高潮了同样被判定为combo数 </p>
+          </ul>
+          <p id="subText"> 舔或者用手（其他工具也可以哦）去调戏你搭档（现在与你h的主要角色）的下半身（臀部或者肛门）的时候 按下 <a id="inputRemind">
+              Keypad Enter</a> 或者 按住 <a id="inputRemind"> 右键</a>
+            然后按下 <a id="inputRemind">中键</a>. <br>
+          </p>
+          <br>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从抽插切换成侍奉模式</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">只在拔出模式下有效！</p>
+          </ul>
+          <p id="subText"> 按 <a id="inputRemind">Enter</a> 当你看着女孩子
+            的 <a id="descrTitle"> 脸 </a> 会开始口交, <a id="descrTitle">
+              奶子</a> 开始乳交, <a id="descrTitle"> 手臂</a> 或者 <a id="descrTitle">
+              臀部</a> 开始手交 </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hpiston">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="HpisMotion" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;"> - 姿势行为的具体切换
+            -</p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">插入！ ( 当你在拔出状态
+            )</p>
+          <hr style="width: 100%; height: 271px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px;
+            background-image: url(Images/pistInsert.png);" id="img">
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">动起来！或者。。大力点！</p>
+          <hr style="width: 100%; height: 271px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px;
+            background-image: url(Images/pistMotion.png);" id="img">
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">接近或者正在高潮</p>
+          <hr style="width: 100%; height: 345px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/pistCum.png&quot;);"
+
+            id="img">
+          <p id="subText"> 附注：键盘射精的快捷键只能男性快感计值表达到70%有效，鼠标则要最低80%<br>
+            <br>
+            在内射时你可以按住<a id="inputRemind">right
+              mouse button</a> 然后&nbsp;<a id="inputRemind"> scroll wheel down</a>
+            <br>
+            或者直接按下 <a id="inputRemind">keypad Enter</a>拔出强制外射 </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hpiston">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+      </div>
+      <hr id="Hservice" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+          Service Shortcuts </h1>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HsrvPosNav">姿势的切换</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HsrvMotion">速度力度的控制</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <hr id="HsrvPosNav" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;"> - 姿势的切换 -</p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 如何进入上一个或者下一个姿势 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你可以在闲置状态或者在侍奉时切换，只要男角色没有达到要射出来的程度</p>
+          </ul>
+          <p id="subText"> <a id="inputRemind">Insert&nbsp;&nbsp;</a> 或 <a id="inputRemind">keypad
+              7</a>&nbsp; 和 <a id="inputRemind">Backspace</a>&nbsp; keys 进入上一个或者下一个已经解锁的姿势<br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;"> 侍奉类型的切换</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你可以在闲置状态或者在侍奉时切换，只要男角色没有达到要射出来的程度</p>
+          </ul>
+          <hr style="width: 100%; height: 277px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/posNavSrvTyp.png&quot;);"
+
+            id="img">
+          <p id="inputDef"> <a id="inputRemind">Control</a> + <a id="inputRemind">Insert</a>
+            ( 或 <a id="inputRemind"> keypad 7</a> ) 和 <a id="inputRemind">Control</a>
+            + <a id="inputRemind">Backspace</a> </p>
+          <p id="inputDef">切换上一种或下一种侍奉&nbsp; 类型 ( 例子 :
+            手交切换到口爆) <br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从侍奉模式进入爱抚模式</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你可以在闲置状态或者在外射出来以后切换。在这种情况下会视作增加一次combo数（combo模式后文又提起）</p>
+          </ul>
+          <p id="subText"> 舔或者摸（或者其他性玩具）正与你h的女孩子的身体
+            然后按下 <a id="inputRemind"> Keypad Enter</a> 或者按住 <a id="inputRemind">
+              right mouse button</a> 然后按下 <a id="inputRemind">中键</a>.
+          </p>
+          <br>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从侍奉模式进入抽插模式 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">女生必须在允许插入的服装状态下！<br>
+              你可以在闲置状态或者在侍奉时切换，只要男角色没有达到要射出来的范围，或者已经射出来了。如果射出来后切换则被视为一次combo数.</p>
+          </ul>
+          <p id="subText"> 按住 <a id="inputRemind">right mouse button</a> 和
+             <a id="inputRemind">向上滚滚轮</a> , 或者按下 <a id="inputRemind">
+              Keypad Enter</a> 进入插入股间模式. <br>
+            按住 <a id="inputRemind">rmb</a> 然后按下 <a id="inputRemind">中键</a>,
+            或者按下 <a id="inputRemind"> Keypad *</a> 进入爆菊模式（依据你现在的侍奉状态，不是所有情况都可以有效）. </p>
+          <br>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hservice">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+        <hr id="HsrvMotion" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -20px;"> - 速度力度的控制
+            -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">正与你战斗的女孩有自己独立的ai来让她自己为你侍奉，帮你射出来，(在玩家射出以后)自己改变行为，可能会直接想要和你合二为一.<br>
+              你可以在设置中禁用这个功能!</p>
+          </ul>
+          <p id="subTitle" style="margin-top: -10px;">在闲置状态下</p>
+          <p id="subText"> <a id="inputRemind"> 中键</a> 或 <a id="inputRemind">keypad
+              Enter</a>&nbsp; 开始侍奉<br>
+            <br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">侍奉中</p>
+          <p id="subText"> <a id="inputRemind"> 中键</a> 改变动作的力度<br>
+          </p>
+          <p id="subText"> <a id="inputRemind"> 向上滚滚轮</a>  或者 向下滑 改变动作速度<br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">快要不行了？&nbsp; 要释放了？</p>
+          <p id="subText"> <a id="inputRemind"> 中键</a> 或者按下 <a id="inputRemind">keypad
+              Enter</a>&nbsp;在特定的侍奉姿势下射在嘴里
+            ，如果姿势不允许，将会射在外面<br>
+          </p>
+          <p id="subText"> <a id="inputRemind"> 向下滑滚轮</a> 或者按住 <a id="inputRemind">Control</a>+<a
+
+              id="inputRemind">keypad Enter</a>&nbsp;射在外面. <br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">是否吞下你的子孙？</p>
+          <p id="subText"> <a id="inputRemind"> 中键</a> 要求她吞下 </p>
+          <p id="subText"> <a id="inputRemind"> 向下滑滚轮</a> 让她吐出来. </p>
+          <div id="backTop">
+            <ul class="niveau1" id="goTopBut">
+              <li> <a href="#Hservice">回到索引</a> </li>
+            </ul>
+          </div>
+          <div id="smallSpacer"></div>
+        </div>
+        <br>
+      </div>
+      <hr id="Htease" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;"> 爱抚模式快捷键 </h1>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;"> - 在多种爱抚姿势下切换 -</p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 选择进入原有的爱抚姿势或者进入新的 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">你只能在闲置状态，下切换，抚摸时无法切换，并且女生高潮后也不能切换</p>
+          </ul>
+          <hr style="width: 100%; height: 196px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/posNavTease.png&quot;);"
+
+            id="img">
+          <p id="inputDef"> <a id="inputRemind">Insert&nbsp;</a> 或 <a id="inputRemind">keypad
+              7</a>&nbsp; 和 <a id="inputRemind">Backspace</a>&nbsp; 键 切换姿势<br>
+          </p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从爱抚模式进入侍奉模式</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在女孩子高潮的时候也可以马上切换 </p>
+          </ul>
+          <p id="subText">按下 <a id="inputRemind">Enter</a> 当你看着女孩子的 <a id="descrTitle"> 脸 </a> 进行口交, <a id="descrTitle">
+              奶子</a> 进行乳交, <a id="descrTitle"> 手臂</a> 或者 <a id="descrTitle">
+              臀部</a> 来进行手交 </p>
+          <br>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">如何从爱抚模式进入抽插模式
+          </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">只要你忍不住了就可以进入，但是前提是女孩子必须处于允许插入的服装状态.</p>
+          </ul>
+          <p id="subText"> 按住 <a id="inputRemind">right mouse button</a>
+            然后&nbsp; <a id="inputRemind">向上滑滚轮&nbsp;</a> , 或者按下 <a id="inputRemind">
+              Keypad Enter</a> 进入插入股间模式. <br>
+            按住 <a id="inputRemind">RMB</a> 然后&nbsp; <a id="inputRemind">中键 </a>, 或者 <a id="inputRemind"> Keypad *</a> 进入爆菊模式. </p>
+          <br>
+        </div>
+        <div id="smallSpacer"></div>
+        <br>
+      </div>
+      <hr id="Hcombo" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;"> Combo连段
+          与快感的提高</h1>
+        <ul id="ctxUl">
+          <p id="contextInfo">你可以在战斗中进行连续的做爱来增加combo的次数 <br>
+            一定数量combo之后，就会让玩家达到一种“恍惚”的状态 </p>
+          <br>
+        </ul>
+        <div id="subFrame"> <br>
+          <p id="subTitle" style="margin-top: -10px;">连段时机</p>
+          <p id="subText"> <a id="inputRemind" style="color:#4f93c4;">内射时
+		  </a> <a id="minorText">( 仅插入模式 )</a><br>
+            <br>
+          </p>
+          <p id="inputDef"> 按住 <a id="inputRemind">鼠标右键</a> 然后
+            <a id="inputRemind">向下滑 滚轮</a> 或者按 <a id="inputRemind">Keypad
+              enter</a> <br>
+            来完成一次外射<br>
+          </p>
+          <br>
+          <p id="subText"> <a id="inputRemind" style="color:#4f93c4;">在外射时
+		  </a> 或者 <a id="inputRemind" style="color:#4f93c4;">在拔出以后
+		  &nbsp;</a><a id="minorText"> ( 只在活塞运动时 )</a> <br>
+          </p>
+          <p id="inputDef"><br>
+            按住 <a id="inputRemind">鼠标右键</a> 然后 <a id="inputRemind">向上滑 滚轮
+			</a> 或者按下 <a id="inputRemind">Keypad enter</a> 增加一次股间combo </p>
+          <p id="inputDef"><br>
+            按住 <a id="inputRemind">鼠标右键</a> 然后按下 <a id="inputRemind">中键
+			</a> 或者 <a id="inputRemind">Keypad multiply</a> 来完成一次菊花连锁 </p>
+          <br>
+          <p id="subText"> <a id="inputRemind" style="color:#4f93c4;">高潮后切换角色
+		  </a> <a id="minorText">( 在任何场景下都有用 )</a><br>
+          </p>
+          <p id="inputDef"><br>
+            在外射或者高潮后都会被判定为一次combo数,<br>
+            看着某人同时按 <a id="inputRemind">Enter</a> </p>
+          <ul id="ctxUl">
+            <p id="contextWarn">如果你尊重她的要求，带套的话
+              shortcut&nbsp; 你可以在按下combo快捷键之后立马按下带套快捷键带套&nbsp; </p>
+            <p id="contextInfo">为了维持combo数，你要尽量避免闲置的状态。为了避免闲置，你至少摸一下她……&nbsp; </p>
+            <p id="contextInfo">Combo的时机并不重要....在插入模式下，Combo会影响你和她下一个体位交合的速度和动作强度，
+				一次快速的连段会让女方一直保持一种非常high的状态</p>
+          </ul>
+        </div>
+        <div id="smallSpacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitle" style="margin-top: -10px;">恍惚状态</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">当combo数增加时，“恍惚”状态将分为三个阶段 <br>
+              Combo数量多少达到各个阶段的恍惚状态是由kplug使用者在设置内决定的</p>
+          </ul>
+          <p id="subText"><a id="path">恍惚状态等级将会影响一些事情</a><br>
+            <br>
+            - 增加 blur 和 bloom 的数值 <a id="minorText">( 用于模糊玩家的视野，等级越高越明显 )</a><br>
+            - 因闲置状态打断的连段时间变长 <a id="minorText">( 帮助玩家维持combo数 )</a><br>
+            - 你会射得更多更远<br>
+            - 如果内射，拔出得时候子孙会流出来很多<span style="color: #999999;">
+            </span><a id="minorText">( 会记录到事件日记中！在危险日要小心 )</a><br>
+            - H时时间流逝会变慢 <a id="minorText">( 如果你开启了H时时间流逝 )</a><br>
+            - 当你达到第三等级状态，会有特殊的啪啪啪音效<br>
+          </p>
+          <br>
+        </div>
+        <div id="smallSpacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitle" style="margin-top: -10px;">最低和另外的快感</p>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 当你用了kplug插件时，当你h时，观众也会性奋，此时将变成一场肉欲盛宴！ <br>
+              不像原版游戏，女孩的快感永远不会恢复到0，在一场场做爱后，你的搭档和周围的旁观者也会越来越性奋 </p>
+            <p id="contextWarn"> 每个在场景中的女孩都有自己的最低与另外的快感！<br>
+              另外的快感计入此时的女孩子的快感，并且当你爱抚她或者她自慰或者百合时，到达100时她会高潮。<br>
+              最低快感同时也决定了她另外快感的上限和左上角快感计量器的值，当你把她作为主要角色h的时候.</p>
+          </ul>
+          <br>
+          <p id="subText"> 女生自慰或者百合高潮时，她与别的旁观者的最低快感会提升，另外，当看你和搭档啪啪啪汁水肆意时也会（但是在这种情况下最低快感会低一些）.<br>
+            T最低快感值是会一直提升到 <a id="path">它自己的上限为止</a>&nbsp;<br>
+          </p>
+          <p id="subText"> 但是最低快感的增长速度 <a id="path">以及上限</a> 是在kplug设置中修改的 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo"> 基于女孩个人的最低快感与另外的快感值，女孩会自慰或者百合</p>
+          </ul>
+          <div id="smallSpacer"></div>
+        </div>
+        <div id="smallSpacer"></div>
+      </div>
+      <hr id="Hmult" style="visibility: hidden;">
+      <div id="spacer"></div>
+      <div id="frame"> <br>
+        <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;"> 和多个人同时H </h1>
+        <div id="indexFrame"> <br>
+          <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+          <div id="summary">
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HmultSwap">主·次角色切换</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HmultMov">调整女孩的位置</a> </li>
+            </ul>
+            <ul class="niveau1" id="indexBut">
+              <li> <a href="#HmultTouch">触摸和互动</a> </li>
+            </ul>
+            <br>
+          </div>
+        </div>
+        <hr id="HmultSwap" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="subFrame"> <br>
+          <p id="subTitleC" style="margin-top: -21px;"> - 切换不同主要人物 -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">在活塞插入状态和侍奉期间，如果快感度超过70%
+            ，将不能切换人物</p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextInfo">如果你选择的模式需要特定的衣服状态，目标女生将开始脱衣服 !</p>
+          </ul>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">交换主要人物与其它人物</p>
+          <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/swapNormal.png&quot;);"
+
+            id="img">
+          <p id="subText"><a id="path">看着其她人然后互换:</a></p>
+          <p id="inputDef"> 看着观众中的某个人，按 <a id="inputRemind">Enter</a>
+            <br>
+            使用 <a id="inputRemind">Control</a>+ <a id="inputRemind">Enter</a>
+            可以在侍奉的时候直接跟要切换的女生换成插入模式（如果在插入时这样做的话就会切换成侍奉模式）. <br>
+          </p>
+          <br>
+          <p id="subText"><a id="path">亲吻和交换:</a></p>
+          <p id="inputDef"> 亲吻一个女孩，然后按<a id="inputRemind">鼠标滚轮</a> 来和主要女孩进行交换 <br>
+          </p>
+          <br>
+          <p id="subText"><a id="path">备用的互换方法:</a></p>
+          <p id="inputDef"> 按住 <a id="inputRemind">Alt</a>, 将鼠标光标移动到一个女孩身上，然后当粉红色图案显示时，按 <a
+
+              id="inputRemind">S</a> 交换那个小女孩<br>
+          </p>
+          <br>
+          <p id="subText"><a id="path">随机和观众中的一个女孩交换:</a></p>
+          <p id="inputDef"> 如果一个女孩可以被交换，你可以使用 <a id="inputRemind">斜杠</a>
+            ( 右Shift键的左边那一个 ) 执行随机操作。<br>
+            这个快捷键被游戏用作重置相机旋转功能。要重置相机旋转而不进行随机交换，按住ctrl的同时按斜杠键。</p>
+          <div id="spacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">切换前让女孩先自慰再说 </p>
+          <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/swapLesbian.png&quot;);"
+
+            id="img"><br>
+          <p id="inputDef">看着其他待啪的女生然后按下 <a id="inputRemind">L</a>
+            <br>
+            取决于实际情况，你指定的女生将会开始自慰或百合，高潮之后，再切换&nbsp;<br>
+            <b>百合交换可以作为一个Combo使用!</b></p>
+          <b> <br>
+            <ul id="ctxUl">
+              <p id="contextWarn">玩家可以对着正在啪的女孩使用这个功能 !<br>
+              看着你正在啪的女生，按下 L ，她会开始自慰，高潮之后会直接进入插入模式</p>
+            </ul>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hmult">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </b></div>
+        <b> <br>
+          <hr id="HmultMov" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 调整女孩的位置 -</p>
+            <p id="subTitle" style="margin-top: -10px;">在场景中移动其他女生     </p>
+            <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicMove.png&quot;);"
+
+              id="img"><br>
+            <p id="inputDef"> 按住 <a id="inputRemind">Left ALT</a> 然后把鼠标移动到你的目标人物上，她的身上会有粉红色的胶囊状标识, <br>
+              然后按下 <a id="inputRemind">RMB</a> 拖动女生到其他地方<br>
+            你也可以<br>
+              按下 <a id="inputRemind">RMB</a>+<a id="inputRemind">LMB</a> 旋转她整个人 </p>
+            <br>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">改变角色动画</p>
+            <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicChangePos.png&quot;);"
+
+              id="img"><br>
+            <p id="inputDef"> 按住 <a id="inputRemind">左 ALT</a> and focus
+              将鼠标光标移动到围观女孩身上，直到显示粉红色图形, <br>
+              然后按下 <a id="inputRemind">空格</a> 切换到下一个动作
+              或 按 <a id="inputRemind">N</a> 来切换站姿</p>
+            <br>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">编辑人物姿势 </p>
+            <ul id="ctxUl">
+              <p id="contextInfo">可以调整人物的姿势<br>
+              但是非常难用...</p>
+            </ul>
+            <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicEditPos.png&quot;);"
+
+              id="img"><br>
+            <p id="inputDef"> 按住 <a id="inputRemind">Left SHIFT</a> 将光标聚焦到女孩成员（手、脚或臀部）上，
+          会出现一个绿色的球体。 <br>
+            <a id="descrTitle">位置调整</a> <br>
+            按下 <a id="inputRemind">RMB</a> 垂直高度移动, <a
+
+              id="inputRemind">RMB</a>+ <a id="inputRemind">Left control</a>
+            调整垂直位置 <br>
+            <a id="descrTitle">方向编辑</a> <br>
+            按 <a id="inputRemind">RMB</a>+<a id="inputRemind">LMB</a> 拖动
+            调整Y轴，外加 <a id="inputRemind">Left control</a> 来
+             调整x轴和z轴的位置 <br>
+          </p>
+          <ul id="ctxUl">
+            <p id="contextWarn">在某些情况下，该功能不可用 !</p>
+          </ul>
+          <p id="inputDef"> <a id="descrTitle">重置你的编辑</a> <br>
+            <a id="inputRemind">Left SHIFT</a> 然后把光标聚集到人物身上 <br>
+            按下 <a id="inputRemind">Space</a> 重置该部位的姿势 <br>
+            或者<br>
+            <a id="inputRemind">Space</a>+ <a id="inputRemind">Left control</a>
+            重置所有部位的姿势！<br>
+          </p>
+            <br>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hmult">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HmultTouch" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 触摸与互动 -</p>
+            <br>
+            <p id="subTitle" style="margin-top: -10px;">清洁女孩</p>
+            <p id="inputDef"> <a id="inputRemind">按住 T</a> 和 <a id="inputRemind">鼠标左键</a> 来给脏的身体部位洗澡, 也适用于主要女孩。</p>
+            <br>
+            <br>
+            <p id="subTitle" style="margin-top: -10px;">爱抚待啪的女生</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">你可以亲吻或者抚摸待啪女生的关键部位，取决于她是否愿意</p>
+            </ul>
+            <hr style="width: 100%; height: 232px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicTease.png&quot;);"
+
+              id="img"><br>
+            <p id="inputDef"> <a id="descrTitle">亲她</a> <br>
+            在女孩脸上移动光标，当唇部图标出现时，按住 <a id="inputRemind">LMB</a>
+            并拖动鼠标来进行亲吻 <br>
+          </p>
+          <br>
+          <p id="inputDef"> <a id="descrTitle">抚摸</a> <br>
+          </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">要注意的是...你只有两只手</p>
+          </ul>
+          <p id="inputDef"> 将光标集中在人物的股间或屁股上，当图标改变时 <a
+
+              id="inputRemind">LMB</a> 点击就可以进行享受啦～ </p>
+          <p id="inputDef"> <a id="inputRemind">LMB</a> 单击想要抚摸的地方点击增加一个手
+          按住该键来移动 </p>
+          <p id="inputDef"> <a id="inputRemind">中键</a> 按下可以自动抚摸该部位 </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">双手的动作是同步的<br>
+              不关你摸的是正在被啪的女生还是等待被啪的女生，只要动一只手，另一只手也会跟着动（可以同时摸数个女生哦） </p>
+          </ul>
+          <ul id="ctxUl">
+            <p id="contextWarn">当你在拔出状态或者完成一次外射的瞬间，你可以猛得一下把你正在抚摸的女生拉到怀里直接进行插入 !（达到一种快速切换效果） </p>
+          </ul>
+          <p id="inputDef"> <a id="inputRemind">RMB</a> 再次点击将手分离.</p>
+            <br>
+            <br>
+            <p id="subTitle" style="margin-top: -10px;">关于可绑定点 About bind-able spots</p>
+            <hr style="width: 100%; height: 240px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicShowBind.png&quot;);"
+
+              id="img"><br>
+            <p id="inputDef"> - 如果可能的话, 按住 <a id="inputRemind">H</a>
+              显示其他角色可以加入动作的点。<br>
+              显示为蓝色球体是为了绑定女孩的，绿色球体是为了绑定小伙伴的 <br>
+            </p>
+            <p id="inputDef"> - 按 <a id="inputRemind">Ctrl</a>+ <a id="inputRemind">H</a>
+              切换移动和绑定选项<br>
+            </p><br>
+            <p id="inputDef"> - If there's some possibilities, hold <a id="inputRemind">H</a>
+              to display spots where other characters can join the action.<br>
+              those spots are displayed as blue spheres for girl binder and
+              green spheres for buddy binder <br>
+            </p>
+            <p id="inputDef"> - press <a id="inputRemind">Ctrl</a>+ <a id="inputRemind">H</a>
+              to toggle the move and bind option on or off<br>
+            </p>
+            <br>
+            <br>
+            <p id="subTitle" style="margin-top: -10px;">多个女生参与同一个体位</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">让多个女生同时服务你!<br>
+                可在各种侍奉和插入情况下使用，不适用于处女。 </p>
+            </ul>
+            <hr style="width: 100%; height: 222px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/publicInvolve.png&quot;);"
+
+              id="img">
+            <p id="inputDef">- 要绑定一个女孩，你可以把她移动到一个绑定区域附近(蓝色的)，然后释放，或者把鼠标光标移动到她身上的粉红色区域上，然后按 <a id="inputRemind">Alt</a>+<a id="inputRemind">H</a>, 如果有空闲可用的绑定区域，她会自动连接 <br>
+              <br>
+              - 要将一个小伙伴绑定给一个主要女孩，当女孩周围有一个空闲的绿色绑定区域时(在女孩的胯部附近)，将他移动到附近并释放, 或&nbsp; 把鼠标光标聚焦在小伙伴身上时按 <a id="inputRemind">Alt</a>+<a id="inputRemind">H</a>              。 <br>
+              当鼠标光标聚焦在附加的女孩胶囊上时，可以使用 <a id="inputRemind">Alt</a>+<a id="inputRemind">H</a>分离小伙伴。 <br>
+              <br>
+              - 当主要动作姿势改变时，如果下一个位置有相同的绑定区域，女孩将自动绑定到新动作上，但只有启用“是否开启小伙伴AI”选项时，小伙伴才重新绑定。</p>
+            <p> </p>
+            <ul id="ctxUl">
+              <p id="contextWarn">要分开一个被绑定在主要行动上的女孩，需要用鼠标把她拖开 !</p>
+            </ul>
+            <ul id="ctxUl">
+              <p id="contextInfo">想更快，更灵活地交换参与的女孩, 只要看着其中一个按 Enter !</p>
+            </ul>
+            <p id="inputDef">玩弄或插入的绑定区域有不同的可用位置，将光标聚焦在已连接的女孩上，按<a id="inputRemind">Alt</a>+ <a id="inputRemind">空格</a>
+              更改。<br>
+            </p>
+            <br>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">观众互动</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">女孩和小伙伴可以在旁边互动</p>
+            </ul>
+            <p id="subText"> - 有时，近距离的女孩可能会开始女同性恋互动...<br>你可以通过移动一个手淫的女孩靠近另一个女孩来帮助发生这种情况(移动一个女孩靠近另一个手淫的女孩效果相同)<br>
+              - 具有“喜欢女孩”性格的女孩子更容易发生互动； 将其中一个移到另一个女孩附近。 <br>
+              <br>
+            </p>
+            <hr style="width: 100%; height: 222px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/linkChar.png&quot;);"
+
+              id="img">
+            <p id="subText"> - 要让一个小伙伴和一个女孩互动，直接把他移到那个女孩那里<br>
+              - 有时候，如果一个女孩很兴奋，她可能会自己和那个小伙伴开炮...<br>
+              - 如果开启“是否开启小伙伴AI”，每个小伙伴将自己搜索一个伙伴 <br>
+              <br>
+              - 要拆开他们，你可以将焦点放在有色区域上，然后按 <a  id="inputRemind">Alt</a>+<a id="inputRemind">H</a>.<br>
+            </p>
+            <div id="spacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">关于kPlug的重要说明！</p>
+            <ul id="ctxUl">
+              <p id="contextWarn">虽然触摸女孩动作和绑定的女孩都会在更换姿势后自动分离，但是还是建议使用kPlug的快捷方式来更改姿势！</p>
+            </ul>
+            <p id="subText"> 使用快捷键时，kPlug可以在姿势改变前分离人物，但是当使用游戏UI来改变姿势时，kPlug只能在改变姿势后再进行分离人物的操作，这有可能会造成bug。&nbsp; </p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hmult">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <br>
+        </b></div>
+      <b>
+        <hr id="Hsp" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="frame"> <br>
+          <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+            特殊H场景 </h1>
+          <div id="indexFrame"> <br>
+            <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+            <div id="summary">
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HspDark">黑暗事件</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HtrespassBut">强行进入</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HspMast">自慰场景</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HspPeep">偷窥场景</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HspLesb">百合场景</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#Hsp3P">官方三P场景</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HspHeart">打野战</a> </li>
+              </ul>
+              <br>
+            </div>
+          </div>
+          <hr id="HspDark" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 黑暗事件 -</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">邀请一个小伙伴来代替丑陋的老头!增加了一个强奸事件在女孩的日常统计中，但这个事件不会对女孩负面影响</p>
+            </ul>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HtrespassBut" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 强行进入 -</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">
+              	kPlug已经包含了强行进入H场景的功能，但是也可以使用新的强行进入按钮。<br>
+			此按钮是场景结束按钮上方的蓝色或粉红色按钮（自v5.0起添加）。就在场景结束按钮上方</p>
+            </ul>
+            <p id="inputDef"> kPlug的功能可以让你直接进入H，无需任何对话，无论女孩经历如何，但是地图位置无法更改，并且游戏的UI按钮无法更改位置。 <br>
+              <br>
+              使用游戏的按钮将结束当前的场景，然后开始一个新的H场景，位置按钮和地图上的改变位置功能此时是可用的。 如果不是3PH的情况，邀请菜单也可以访问。 </p>
+            <ul id="ctxUl">
+              <p id="contextWarn">一旦在H场景中有女孩通过kPlug功能被邀请，此按钮将被禁用。</p>
+            </ul>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HspMast" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 自慰场景-</p>
+            <p id="inputDef"> 想帮她一把，让她上天 ? 按 <a id="inputRemind">Enter</a>
+            ! <br>
+            你会进入自慰模式下的爱抚模式 </p>
+          <ul id="ctxUl">
+            <p id="contextWarn">此模式下邀请其他女生功能和更换H地点功能将会
+              关闭.</p>
+            <p id="contextWarn">注意，此功能在自由H模式下不可用，因为自由H模式下
+               女同学自慰的时候不会加载男主角!</p>
+            <p id="contextInfo">在这种情况下跟她们嘿嘿嘿她们是无法拒绝的<br>
+              处女身也不会生气和反抗，无论她有无H的经验!</p>
+            </ul>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HspPeep" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 偷窥她尿尿 -</p>
+          <div id="smallSpacer"></div>
+          <hr style="width: 100%; height: 240px; color: white; margin-left: auto; margin-right: auto; margin-top: -7px; background-image: url(&quot;Images/spHpeep.png&quot;);"
+
+            id="img"><br>
+          <p id="inputDef"> 受不了只是看着 ?  按 <a id="inputRemind">Enter</a>
+            ! 进去雷普她吧！</p>
+          <br>
+          <ul id="ctxUl">
+            <p id="contextWarn">此模式下邀请其他女生功能和更换H地点功能将会
+              关闭,<br>
+              这些场景是不会触发 H 结算界面的</p>
+            <p id="contextWarn">如果你抵抗不住自己，进去了大干了一场的话
+              不论这位受害人是处女还是非处女，只要H度低于95的话就算是一场雷普（没错强奸）! <br>
+              受害人会无法高潮!但是部位经验增长会加速!</p>
+            <p id="contextInfo">在这种情况下跟她们嘿嘿嘿她们是无法拒绝的 !</p>
+          </ul>
+          <p id="subText"> 开干时插入的部位（菊花或股间）取决于 :<br>
+            <br>
+            &nbsp;&nbsp;&nbsp;<a id="descrTitle">- 淋浴中 :</a> 偷窥女生后面或者前面<br>
+            &nbsp;&nbsp;&nbsp;<a id="descrTitle">- 尿尿中 :</a> 尿尿动作开始时进入 </p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HspLesb" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 百合场景 -</p>
+            <ul id="ctxUl">
+              <p id="contextWarn">此模式下邀请其他女生功能和更换H地点功能将会
+              关闭</p>
+            </ul>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">扒掉她们衣服</p>
+          <p id="subText" style="margin-top: -10px;"> 你可以按 <a id="inputRemind">P</a>
+            去把她们衣服扒掉~ </p>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">切换姿势</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">仅在站着百合和躺着百合时有效</p>
+          </ul>
+          <p id="subText" style="margin-top: -10px;"> 使用 <a id="inputRemind">Backspace</a>
+            和 <a id="inputRemind">Insert</a> ( or <a id="inputRemind">Keypad
+              7</a> ) 在不同的姿势中切换.</p>
+		  <div id="smallSpacer"></div>
+		  <p id="subTitle" style="margin-top: -10px;">中途要求加入！切换到官方3P场景</p>
+          <p id="inputDef"> 想要不过问，直接加入她们的愉悦时刻？ 按下 <a id="inputRemind">Enter</a>
+            开始你们的欢乐时光!</p>
+          <ul id="ctxUl">
+            <p id="contextWarn">注意，此功能在自由H模式下不可用，因为自由H模式下
+               女生百合的时候不会加载男主角! !</p>
+            </ul>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <br>
+          <hr id="Hsp3P" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 官方3P场景 -</p>
+          <ul id="ctxUl">
+            <p id="contextWarn">邀请菜单此时不会开启, <br>
+              H地点移动功能将关闭，如果你是用kPlug插件提供的中途加入快捷键进入这个场景的话</p>
+          </ul>
+          <div id="smallSpacer"></div>
+          <p id="subTitle" style="margin-top: -10px;">扒衣服</p>
+          <p id="subText" style="margin-top: -10px;"> 老样子，按下 <a id="inputRemind">P</a>
+            把两个女生的衣服脱掉. </p>
+          <div id="smallSpacer"></div>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">切换主侍奉女生</p>
+          <p id="subText" style="margin-top: -10px;"> 按下 <a id="inputRemind">Backspace</a>
+            和 <a id="inputRemind">Insert</a> ( 或者 <a id="inputRemind">Keypad
+              7</a> ) 切换主副侍奉女生.</p>
+          <div id="smallSpacer"></div>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">切换主被插女生</p>
+          <p id="subText" style="margin-top: -10px;"> 按下 <a id="inputRemind">Backspace</a>
+            和 <a id="inputRemind">Insert</a> ( 或 <a id="inputRemind">Keypad
+              7</a> ) 切换主副被插女生</p>
+          <div id="smallSpacer"></div>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">快速切换以提升combo数</p>
+          <p id="subText"> 在闲置状态, <a id="inputRemind">Ctrl</a> + <a id="inputRemind">Insert</a>
+            ( 或者 <a id="inputRemind">keypad 7</a> ) 和 <a id="inputRemind">Ctrl</a>
+            + <a id="inputRemind">Backspace</a> <br>
+            切换两名女生的位置 <br>
+            <br>
+            女生高潮后马上切换会增加combo数 !</p>
+          <div id="smallSpacer"></div>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">从插入模式切换到侍奉模式</p>
+          <p id="subText"> 看着主要被啪的那名女生，按下 <a id="inputRemind">Enter</a> 切换到侍奉模式</p>
+          <div id="smallSpacer"></div>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">从侍奉模式切换到插入模式</p>
+          <p id="subText"> 按住 <a id="inputRemind">right mouse button</a> 然后 <a id="inputRemind">向上滑滚轮</a> up, 或者 <a id="inputRemind">
+              Keypad Enter</a> 进入插入模式. <br>
+            <br>
+          </p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HspHeart" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+            <p id="subTitleC" style="margin-top: -21px;"> - 打野战
+              -</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">这是特殊的H事件，当有一个女孩与你同行时，你可以在一个大心脏图标附近触发。
+在这种情况下没有什么特别的，它是单独的H会话，邀请和地点移动功能不可用。</p>
+            </ul>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hsp">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <br>
+        </div>
+        <hr id="Hcloth" style="visibility: hidden;">
+        <div id="spacer"></div>
+        <div id="frame"> <br>
+          <h1 id="frameTitle" style="margin-top: -22.1333px; height: 36px;">
+            服饰操作 </h1>
+          <div id="indexFrame"> <br>
+            <h1 id="indexTitle" style="height: 36px; margin-top: -22px;">Index</h1>
+            <div id="summary">
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HclothMain">主要被啪女孩的服装操作</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#HclothPub">其他等待被啪女孩服装操作</a> </li>
+              </ul>
+              <ul class="niveau1" id="indexBut">
+                <li> <a href="#Hcosplay">Cosplay 功能（一键替换服饰）</a> </li>
+              </ul>
+              <br>
+            </div>
+          </div>
+          <hr id="HclothMain" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+           <p id="subTitleC" style="margin-top: -21px;"> - 主女同学服装操作-</p>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 如何打开原版服装操作菜单</p>
+          <p id="subText">按下 <a id="inputRemind">Delete</a> 开启或关闭
+            菜单显示</p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 一步一步扒掉她的衣服！</p>
+          <hr style="width: 100%; height: 182px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/stripMain_linear.png&quot;);"
+
+            id="img"><br>
+          <ul id="ctxUl">
+            <p id="contextInfo">默认的脱衣顺序是先外套，再
+              内衣</p>
+          </ul>
+          <p id="inputDef"> 按下 <a id="inputRemind">P</a> 脱掉你正在看的部位
+            （除了内衣） <a id="descrTitle"> 奶子</a>, <a id="descrTitle"> 屁股</a>,
+            <a id="descrTitle"> 手臂</a>, or <a id="descrTitle"> 腿</a> </p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 如何先脱内衣等次要服装</p>
+          <hr style="width: 100%; height: 190px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/stripMain_adv.png&quot;);"
+
+            id="img"><br>
+          <p id="inputDef"> 用手抓住你想脱的部位按下 <a id="inputRemind">P</a>
+            当你看着 <a id="descrTitle"> 奶子</a> or <a id="descrTitle">屁股</a>
+          </p>
+          <ul id="ctxUl">
+            <p id="contextInfo">脱内裤也是一样的逻辑，不过你的
+              要抓着她的屁股！</p>
+            </ul>
+            <br>
+            <p id="subTitle" style="margin-top: -10px;"> 当玩家是变性人时</p>
+            <p id="inputDef"> 使用游戏默认的快捷键来切换衣服或鞋子的显示（V键和M键）。 </p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hcloth">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="HclothPub" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+           <p id="subTitleC" style="margin-top: -21px;"> - 待啪女同学衣服操作 -</p>
+          <ul id="ctxUl">
+            <p id="contextWarn">注意，如果待啪女同学还是处女身的话，她会不愿意
+              被你脱个精光。不过如果她愿意给你看奶子的话，可以脱掉上衣和BRA
+			  </p>
+              
+          </ul>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;"> 要求她展示一下&nbsp;
+            奶子 !</p>
+          <hr style="width: 100%; height: 255px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/stripPublic_boobs.png&quot;);"
+
+            id="img"><br>
+          <p id="inputDef"> 看着她的 <a id="descrTitle"> 奶子</a>, 然后
+            按下 <a id="inputRemind">P</a> </p>
+          <br>
+          <br>
+          <p id="subTitle" style="margin-top: -10px;">关于脱衣服的挑逗
+            动画</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">这里使用了游戏和工作室的动作
+              来模拟脱衣服这一行为</p>
+          </ul>
+          <hr style="width: 100%; height: 201px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/stripPublic_anim.png&quot;); margin-top: 29px;"
+
+            id="img"><br>
+          <p id="inputDef"> 看着她的<a id="descrTitle">屁股</a>, 或者 <a
+
+              id="descrTitle">脸</a>, 然后按下 <a id="inputRemind">P</a> </p>
+          <p id="inputDef"> <a id="descrTitle">屁股</a>, 她会脱掉
+            内衣 </p>
+          <p id="inputDef"> <a id="descrTitle">脸</a>, 她会脱掉所有
+            衣服 ! </p>
+          <br>
+          <p id="inputDef"> 按下 <a id="inputRemind">Control</a>+<a id="inputRemind">P</a>
+            去要求他们所有人都这样做</p>
+            <div id="spacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">特殊情况</p>
+            <ul id="ctxUl">
+              <p id="contextWarn">当女孩被触摸、参与主要动作、在百合中或与其他观看的女孩互动时，你可以直接脱掉她的衣服，不会播放脱衣服动画！&nbsp; </p>
+            </ul>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">小伙伴的衣服</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">同样的逻辑，看着伙伴时按P键，没有脱衣动画，衣服只有三种状态，完整、半裸和裸体。</p>
+            </ul>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">更换服装</p>
+            <ul id="ctxUl">
+              <p id="contextInfo">当一个角色被邀请到H时，kPlug会从自动选择服装类型，但是你也可以手动修改</p>
+            </ul>
+            <p id="subText"> 鼠标聚焦在角色高亮可选区域上，然后按 <a id="inputRemind">Alt</a>+<a id="inputRemind">T</a> 
+            浏览该角色的可用服装（学校1，学校2，健身房，泳衣，俱乐部，便衣和睡衣）。</p>
+            <br>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">更换鞋子</p>
+            <p id="subText"> 鼠标聚焦在角色高亮可选区域上，然后按 <a id="inputRemind">Alt</a>+<a
+                id="inputRemind">Ctrl</a>+<a id="inputRemind">T</a> 来更换鞋子。</p>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">帮某人穿上衣服</p>
+            <p id="subText"> 鼠标聚焦在角色高亮可选区域上，然后按 <a id="inputRemind">Alt</a>+<a
+                id="inputRemind">J</a> 让他穿上衣服</p>
+            <div id="smallSpacer"></div>
+            <p id="subTitle" style="margin-top: -10px;">帮所有人穿上衣服</p>
+            <p id="subText"> 按 <a id="inputRemind">Control</a>+<a id="inputRemind">J</a>
+              让所有人穿上衣服 ( 除了两个主要角色 ).</p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hcloth">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <hr id="Hcosplay" style="visibility: hidden;">
+          <div id="spacer"></div>
+          <div id="subFrame"> <br>
+             <p id="subTitleC" style="margin-top: -21px;"> - Cosplay -</p>
+          <ul id="ctxUl">
+            <p id="contextInfo">让所有人换上一样的衣服和服饰 !<br>
+              这个功能可以在设置界面中的 "enable cosplay" 选项
+              进行调整&nbsp; </p>
+          </ul>
+          <hr style="width: 100%; height: 308px; color: white; margin-left: auto; margin-right: auto; background-image: url(&quot;Images/cosplay.png&quot;);"
+
+            id="img"><br>
+          <p id="inputDef"> 按下 <a id="inputRemind">G</a> <a id="minorText">(
+              H场景时 )</a> 去开启或关闭 "Enable Cosplay" 选项</p>
+            <div id="backTop">
+              <ul class="niveau1" id="goTopBut">
+                <li> <a href="#Hcloth">回到索引</a> </li>
+              </ul>
+            </div>
+            <div id="smallSpacer"></div>
+          </div>
+          <br>
+        </div>
+        <br>
+      </b></div>
+    <b>
+      <div id="spacer"></div>
+    </b>
+  </body>
+</html>
